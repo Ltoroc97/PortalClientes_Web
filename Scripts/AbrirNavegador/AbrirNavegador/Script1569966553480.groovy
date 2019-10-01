@@ -14,7 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/IniciarSesion/button_INGRESAR'))
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('IniciarSesion/h3_Hola Victoria'))
+WebUI.navigateToUrl('https://test-portalclientesyventas-co.azurewebsites.net/login')
 
