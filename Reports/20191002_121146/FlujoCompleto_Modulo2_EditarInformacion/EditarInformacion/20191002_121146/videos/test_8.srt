@@ -1,0 +1,4 @@
+1
+00:00:00,774 --> 00:00:00,775
+1. click(findTestObject("Object Repository/Editar Informacion/button_GUARDAR"))
+

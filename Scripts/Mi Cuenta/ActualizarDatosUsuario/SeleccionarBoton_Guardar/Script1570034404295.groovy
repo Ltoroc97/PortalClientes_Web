@@ -14,7 +14,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Editar Informacion/a_ACTUALIZAR DATOS'))
+WebUI.click(findTestObject('Object Repository/Editar Informacion/button_GUARDAR'))
 
-WebUI.waitForElementClickable(findTestObject('Editar Informacion/a_ACTUALIZAR DATOS'), 10)
+WebUI.waitForElementClickable(findTestObject('Editar Informacion/button_GUARDAR'), 10)
+
+WebUI.click(findTestObject('Object Repository/Editar Informacion/button_ACEPTAR'))
+
+WebUI.waitForElementClickable(findTestObject('Editar Informacion/button_ACEPTAR'), 10)
 

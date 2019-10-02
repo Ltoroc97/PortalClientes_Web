@@ -14,7 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Editar Informacion/a_ACTUALIZAR DATOS'))
+WebUI.setText(findTestObject('Object Repository/Editar Informacion/input_Estrato_Stratum'), '3')
 
-WebUI.waitForElementClickable(findTestObject('Editar Informacion/a_ACTUALIZAR DATOS'), 10)
+WebUI.delay(5)
 

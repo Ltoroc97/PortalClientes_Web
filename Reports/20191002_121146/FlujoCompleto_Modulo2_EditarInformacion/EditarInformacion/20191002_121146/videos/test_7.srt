@@ -1,0 +1,4 @@
+1
+00:00:00,682 --> 00:00:00,684
+1. setText(findTestObject("Object Repository/Editar Informacion/input_Estrato_Stratum"), "3")
+

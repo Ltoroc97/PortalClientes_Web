@@ -40,4 +40,22 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Mi Cuenta/ActualizarDatosUsuario/SeleccionarOpcion_MisDatos</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>7db37ff9-1fe4-407f-9732-4af24d90641f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mi Cuenta/ActualizarDatosUsuario/SeleccionarBoton_ActualizarDatos</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f93211fc-3056-4fa2-bb46-a67afb007510</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mi Cuenta/ActualizarDatosUsuario/ModificarInformacion</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8ccc16b2-9509-4b74-8155-1ff6cb5e7344</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mi Cuenta/ActualizarDatosUsuario/SeleccionarBoton_Guardar</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
