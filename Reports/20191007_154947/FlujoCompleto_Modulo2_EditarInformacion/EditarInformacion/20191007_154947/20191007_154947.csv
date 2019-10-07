@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+EditarInformacion,Chrome 77.0.3865.90,,,2019-10-07 15:49:50,2019-10-07 15:50:49,59.023s,INCOMPLETE
+,,,,,,,
+Test Cases/Abrir Navegador/AbrirNavegador,Chrome 77.0.3865.90,,,2019-10-07 15:49:50,2019-10-07 15:50:04,14.724s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.90,,,2019-10-07 15:49:50,2019-10-07 15:49:56,6.361s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.90,,,2019-10-07 15:49:56,2019-10-07 15:50:04,8.034s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/IngresarInformacion,Chrome 77.0.3865.90,Autenticación - portal clientes,,2019-10-07 15:50:04,2019-10-07 15:50:13,8.500s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.90,,,2019-10-07 15:50:05,2019-10-07 15:50:06,1.474s,PASSED
+"setText(findTestObject(""Object Repository/IniciarSesion/input_Correo electrnico_email""), ""usuarioprueba1@yopmail.com"")",Chrome 77.0.3865.90,,,2019-10-07 15:50:06,2019-10-07 15:50:10,3.385s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/IniciarSesion/input_Contrasea_password""), ""zpitzbFj1P6iY2h+x2z5qA=="")",Chrome 77.0.3865.90,,,2019-10-07 15:50:10,2019-10-07 15:50:13,3.266s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/SeleccionarBoton_Ingresar,Chrome 77.0.3865.90,,,2019-10-07 15:50:13,2019-10-07 15:50:19,6.059s,FAILED
+"click(findTestObject(""IniciarSesion/button_INGRESAR""))",Chrome 77.0.3865.90,,,2019-10-07 15:50:13,2019-10-07 15:50:15,2.142s,PASSED
+"waitForElementClickable(findTestObject(""IniciarSesion/button_INGRESAR""), 60)",Chrome 77.0.3865.90,,,2019-10-07 15:50:15,2019-10-07 15:50:19,3.571s,FAILED
+,,,,,,,
+Test Cases/Mi Cuenta/Actualizar Datos Usuario/SeleccionarMenu_MiCuenta,Chrome 77.0.3865.90,,,2019-10-07 15:50:19,2019-10-07 15:50:32,13.219s,PASSED
+"click(findTestObject(""Object Repository/Modulo Mi Cuenta/a_Mi cuenta""))",Chrome 77.0.3865.90,,,2019-10-07 15:50:19,2019-10-07 15:50:22,2.173s,PASSED
+"waitForElementClickable(findTestObject(""Modulo Mi Cuenta/a_Mi cuenta""), 10)",Chrome 77.0.3865.90,,,2019-10-07 15:50:22,2019-10-07 15:50:32,10.675s,PASSED
+,,,,,,,
+Test Cases/Mi Cuenta/Actualizar Datos Usuario/SeleccionarOpcion_MisDatos,Chrome 77.0.3865.90,,,2019-10-07 15:50:32,2019-10-07 15:50:37,4.731s,PASSED
+"click(findTestObject(""Object Repository/Modulo Mi Cuenta/a_Mis datos""))",Chrome 77.0.3865.90,,,2019-10-07 15:50:33,2019-10-07 15:50:35,2.329s,PASSED
+"waitForElementClickable(findTestObject(""Modulo Mi Cuenta/a_Mis datos""), 10)",Chrome 77.0.3865.90,,,2019-10-07 15:50:35,2019-10-07 15:50:37,2.111s,PASSED
+,,,,,,,
+Test Cases/Mi Cuenta/Actualizar Datos Usuario/SeleccionarBoton_ActualizarDatos,Chrome 77.0.3865.90,,,2019-10-07 15:50:37,2019-10-07 15:50:41,3.898s,FAILED
+"click(findTestObject(""Editar Informacion/a_ACTUALIZAR DATOS""))",Chrome 77.0.3865.90,,,2019-10-07 15:50:37,2019-10-07 15:50:41,3.507s,FAILED
+,,,,,,,
+Test Cases/Mi Cuenta/Actualizar Datos Usuario/ModificarInformacion,Chrome 77.0.3865.90,,,2019-10-07 15:50:41,2019-10-07 15:50:45,3.769s,FAILED
+"setText(findTestObject(""Object Repository/Editar Informacion/input_Estrato_Stratum""), ""3"")",Chrome 77.0.3865.90,,,2019-10-07 15:50:41,2019-10-07 15:50:45,3.449s,FAILED
+,,,,,,,
+Test Cases/Mi Cuenta/Actualizar Datos Usuario/SeleccionarBoton_Guardar,Chrome 77.0.3865.90,,,2019-10-07 15:50:45,2019-10-07 15:50:49,3.853s,FAILED
+"click(findTestObject(""Object Repository/Editar Informacion/button_GUARDAR""))",Chrome 77.0.3865.90,,,2019-10-07 15:50:45,2019-10-07 15:50:49,3.508s,FAILED

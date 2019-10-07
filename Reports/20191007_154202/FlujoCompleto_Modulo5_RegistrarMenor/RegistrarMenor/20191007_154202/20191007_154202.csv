@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RegistrarMenor,Chrome 77.0.3865.90,,,2019-10-07 15:42:05,2019-10-07 15:43:32,1m - 27.136s,INCOMPLETE
+,,,,,,,
+Test Cases/Abrir Navegador/AbrirNavegador,Chrome 77.0.3865.90,,,2019-10-07 15:42:05,2019-10-07 15:42:21,16.046s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.90,,,2019-10-07 15:42:06,2019-10-07 15:42:10,4.077s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.90,,,2019-10-07 15:42:10,2019-10-07 15:42:21,11.535s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/IngresarInformacion,Chrome 77.0.3865.90,Autenticación - portal clientes,,2019-10-07 15:42:21,2019-10-07 15:42:23,1.618s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.90,,,2019-10-07 15:42:22,2019-10-07 15:42:22,0.531s,PASSED
+"setText(findTestObject(""Object Repository/IniciarSesion/input_Correo electrnico_email""), ""usuarioprueba1@yopmail.com"")",Chrome 77.0.3865.90,,,2019-10-07 15:42:22,2019-10-07 15:42:23,0.383s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/IniciarSesion/input_Contrasea_password""), ""zpitzbFj1P6iY2h+x2z5qA=="")",Chrome 77.0.3865.90,,,2019-10-07 15:42:23,2019-10-07 15:42:23,0.304s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/SeleccionarBoton_Ingresar,Chrome 77.0.3865.90,,,2019-10-07 15:42:23,2019-10-07 15:42:24,0.712s,PASSED
+"click(findTestObject(""IniciarSesion/button_INGRESAR""))",Chrome 77.0.3865.90,,,2019-10-07 15:42:23,2019-10-07 15:42:24,0.167s,PASSED
+"waitForElementClickable(findTestObject(""IniciarSesion/button_INGRESAR""), 30)",Chrome 77.0.3865.90,,,2019-10-07 15:42:24,2019-10-07 15:42:24,0.162s,PASSED
+"click(findTestObject(""IniciarSesion/h3_Hola Victoria""))",Chrome 77.0.3865.90,,,2019-10-07 15:42:24,2019-10-07 15:42:24,0.002s,NOT_RUN
+"waitForElementClickable(findTestObject(""IniciarSesion/h3_Hola Victoria""), 60)",Chrome 77.0.3865.90,,,2019-10-07 15:42:24,2019-10-07 15:42:24,0.001s,NOT_RUN
+,,,,,,,
+Test Cases/Mi Cuenta/Registrar Menor/SeleccionarMenu_MiCuenta,Chrome 77.0.3865.90,,,2019-10-07 15:42:24,2019-10-07 15:42:26,2.290s,FAILED
+"click(findTestObject(""Object Repository/Modulo Mi Cuenta/a_Mi cuenta""))",Chrome 77.0.3865.90,,,2019-10-07 15:42:24,2019-10-07 15:42:26,1.929s,FAILED
+,,,,,,,
+Test Cases/Mi Cuenta/Registrar Menor/SeleccionarOpcion_Registrar Menor,Chrome 77.0.3865.90,,,2019-10-07 15:42:26,2019-10-07 15:42:27,0.966s,FAILED
+"click(findTestObject(""Object Repository/Modulo Mi Cuenta/a_Registrar menor""))",Chrome 77.0.3865.90,,,2019-10-07 15:42:26,2019-10-07 15:42:27,0.585s,FAILED
+,,,,,,,
+Test Cases/Mi Cuenta/Registrar Menor/SeleccionarBoton_AgregarFamiliar,Chrome 77.0.3865.90,,,2019-10-07 15:42:27,2019-10-07 15:42:28,0.790s,FAILED
+"click(findTestObject(""Object Repository/Registrar Menor/button_Agregar familiar""))",Chrome 77.0.3865.90,,,2019-10-07 15:42:27,2019-10-07 15:42:28,0.463s,FAILED
+,,,,,,,
+Test Cases/Mi Cuenta/Registrar Menor/BuscarMenorDeEdad,Chrome 77.0.3865.90,,,2019-10-07 15:42:28,2019-10-07 15:43:00,32.118s,FAILED
+"selectOptionByValue(findTestObject(""Object Repository/Registrar Menor/select_Seleccione Ced CiudadaniaTarj IdentidadCed ExtranjeriaPasaporteReg CivilNitOtro""), ""2"", true)",Chrome 77.0.3865.90,,,2019-10-07 15:42:28,2019-10-07 15:43:00,31.836s,FAILED
+,,,,,,,
+Test Cases/Mi Cuenta/Registrar Menor/IngresarInformacion_DelMenor,Chrome 77.0.3865.90,,,2019-10-07 15:43:00,2019-10-07 15:43:32,32.257s,FAILED
+"setText(findTestObject(""Object Repository/Registrar Menor/input_() Nombres_names""), ""Leidy"")",Chrome 77.0.3865.90,,,2019-10-07 15:43:00,2019-10-07 15:43:32,31.925s,FAILED

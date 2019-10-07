@@ -14,10 +14,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Modulo Mi Cuenta/Page_Portal Clientes emi/select_Seleccione                PagaImpaga'), 
+WebUI.selectOptionByValue(findTestObject('null'), 
     '1', true)
 
-WebUI.click(findTestObject('Object Repository/Modulo Mi Cuenta/Page_Portal Clientes emi/button_BUSCAR'))
+WebUI.click(findTestObject('null'))
 
 WebUI.sleep(1000)
 

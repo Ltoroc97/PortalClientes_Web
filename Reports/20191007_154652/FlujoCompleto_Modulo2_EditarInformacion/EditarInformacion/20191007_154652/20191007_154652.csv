@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+EditarInformacion,Chrome 77.0.3865.90,,,2019-10-07 15:46:55,2019-10-07 15:48:15,1m - 19.783s,INCOMPLETE
+,,,,,,,
+Test Cases/Abrir Navegador/AbrirNavegador,Chrome 77.0.3865.90,,,2019-10-07 15:46:55,2019-10-07 15:47:10,15.030s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.90,,,2019-10-07 15:46:55,2019-10-07 15:47:02,6.847s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.90,,,2019-10-07 15:47:02,2019-10-07 15:47:10,7.843s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/IngresarInformacion,Chrome 77.0.3865.90,Autenticación - portal clientes,,2019-10-07 15:47:10,2019-10-07 15:47:19,8.626s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.90,,,2019-10-07 15:47:10,2019-10-07 15:47:12,1.459s,PASSED
+"setText(findTestObject(""Object Repository/IniciarSesion/input_Correo electrnico_email""), ""usuarioprueba1@yopmail.com"")",Chrome 77.0.3865.90,,,2019-10-07 15:47:12,2019-10-07 15:47:15,3.407s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/IniciarSesion/input_Contrasea_password""), ""zpitzbFj1P6iY2h+x2z5qA=="")",Chrome 77.0.3865.90,,,2019-10-07 15:47:15,2019-10-07 15:47:19,3.380s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/SeleccionarBoton_Ingresar,Chrome 77.0.3865.90,,,2019-10-07 15:47:19,2019-10-07 15:47:25,6.176s,FAILED
+"click(findTestObject(""IniciarSesion/button_INGRESAR""))",Chrome 77.0.3865.90,,,2019-10-07 15:47:19,2019-10-07 15:47:21,2.245s,PASSED
+"waitForElementClickable(findTestObject(""IniciarSesion/button_INGRESAR""), 30)",Chrome 77.0.3865.90,,,2019-10-07 15:47:21,2019-10-07 15:47:25,3.630s,FAILED
+,,,,,,,
+Test Cases/Mi Cuenta/Actualizar Datos Usuario/SeleccionarMenu_MiCuenta,Chrome 77.0.3865.90,,,2019-10-07 15:47:25,2019-10-07 15:47:38,13.276s,PASSED
+"click(findTestObject(""Object Repository/Modulo Mi Cuenta/a_Mi cuenta""))",Chrome 77.0.3865.90,,,2019-10-07 15:47:25,2019-10-07 15:47:27,2.217s,PASSED
+"waitForElementClickable(findTestObject(""Modulo Mi Cuenta/a_Mi cuenta""), 10)",Chrome 77.0.3865.90,,,2019-10-07 15:47:27,2019-10-07 15:47:38,10.676s,PASSED
+,,,,,,,
+Test Cases/Mi Cuenta/Actualizar Datos Usuario/SeleccionarOpcion_MisDatos,Chrome 77.0.3865.90,,,2019-10-07 15:47:38,2019-10-07 15:47:43,4.857s,PASSED
+"click(findTestObject(""Object Repository/Modulo Mi Cuenta/a_Mis datos""))",Chrome 77.0.3865.90,,,2019-10-07 15:47:38,2019-10-07 15:47:41,2.380s,PASSED
+"waitForElementClickable(findTestObject(""Modulo Mi Cuenta/a_Mis datos""), 10)",Chrome 77.0.3865.90,,,2019-10-07 15:47:41,2019-10-07 15:47:43,2.131s,PASSED
+,,,,,,,
+Test Cases/Mi Cuenta/Actualizar Datos Usuario/SeleccionarBoton_ActualizarDatos,Chrome 77.0.3865.90,,,2019-10-07 15:47:43,2019-10-07 15:47:48,4.900s,PASSED
+"click(findTestObject(""Editar Informacion/a_ACTUALIZAR DATOS""))",Chrome 77.0.3865.90,,,2019-10-07 15:47:44,2019-10-07 15:47:46,2.223s,PASSED
+"waitForElementClickable(findTestObject(""Editar Informacion/a_ACTUALIZAR DATOS""), 10)",Chrome 77.0.3865.90,,,2019-10-07 15:47:46,2019-10-07 15:47:48,2.112s,PASSED
+,,,,,,,
+Test Cases/Mi Cuenta/Actualizar Datos Usuario/ModificarInformacion,Chrome 77.0.3865.90,,,2019-10-07 15:47:48,2019-10-07 15:47:57,8.645s,PASSED
+"setText(findTestObject(""Object Repository/Editar Informacion/input_Estrato_Stratum""), ""3"")",Chrome 77.0.3865.90,,,2019-10-07 15:47:48,2019-10-07 15:47:51,3.221s,PASSED
+delay(5),Chrome 77.0.3865.90,,,2019-10-07 15:47:51,2019-10-07 15:47:57,5.069s,PASSED
+,,,,,,,
+Test Cases/Mi Cuenta/Actualizar Datos Usuario/SeleccionarBoton_Guardar,Chrome 77.0.3865.90,,,2019-10-07 15:47:57,2019-10-07 15:48:15,17.980s,PASSED
+"click(findTestObject(""Object Repository/Editar Informacion/button_GUARDAR""))",Chrome 77.0.3865.90,,,2019-10-07 15:47:57,2019-10-07 15:47:59,2.182s,PASSED
+"waitForElementClickable(findTestObject(""Editar Informacion/button_GUARDAR""), 10)",Chrome 77.0.3865.90,,,2019-10-07 15:47:59,2019-10-07 15:48:10,11.173s,PASSED
+"click(findTestObject(""Object Repository/Editar Informacion/button_ACEPTAR""))",Chrome 77.0.3865.90,,,2019-10-07 15:48:10,2019-10-07 15:48:12,2.178s,PASSED
+"waitForElementClickable(findTestObject(""Editar Informacion/button_ACEPTAR""), 10)",Chrome 77.0.3865.90,,,2019-10-07 15:48:12,2019-10-07 15:48:15,2.116s,PASSED

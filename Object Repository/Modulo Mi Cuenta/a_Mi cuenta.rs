@@ -6,11 +6,27 @@
    <elementGuidId>35625b80-93e5-41df-8986-6938bbc0a3fe</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;conten1&quot;)/nav[@class=&quot;navbar navbar-default sidebar&quot;]/div[1]/div[1]/ms-sidenav[1]/ul[@class=&quot;nav navbar-nav&quot;]/ms-sidenav-item[@class=&quot;sidenav-item&quot;]/li[@class=&quot;dropdown&quot;]/a[@id=&quot;dropdown-items-menu&quot;][count(. | //*[@href = '#' and @id = 'dropdown-items-menu' and (text() = '
+    Mi cuenta
+    
+  ' or . = '
+    Mi cuenta
+    
+  ')]) = count(//*[@href = '#' and @id = 'dropdown-items-menu' and (text() = '
+    Mi cuenta
+    
+  ' or . = '
+    Mi cuenta
+    
+  ')])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//a[@id='dropdown-items-menu']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +74,7 @@
   </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

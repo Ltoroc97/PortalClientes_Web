@@ -16,7 +16,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('IniciarSesion/button_INGRESAR'))
 
-WebUI.waitForElementClickable(findTestObject('IniciarSesion/button_INGRESAR'), 30)
+WebUI.waitForElementClickable(findTestObject('IniciarSesion/button_INGRESAR'), 60)
+
+WebUI.delay(0)
 
 not_run: WebUI.click(findTestObject('IniciarSesion/h3_Hola Victoria'))
 
