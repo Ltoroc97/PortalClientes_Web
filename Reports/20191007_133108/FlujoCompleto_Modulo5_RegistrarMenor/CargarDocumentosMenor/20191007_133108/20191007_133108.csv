@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CargarDocumentosMenor,Chrome 77.0.3865.90,,,2019-10-07 13:31:16,2019-10-07 13:33:39,2m - 22.278s,INCOMPLETE
+,,,,,,,
+Test Cases/Abrir Navegador/AbrirNavegador,Chrome 77.0.3865.90,,,2019-10-07 13:31:17,2019-10-07 13:31:37,20.348s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.90,,,2019-10-07 13:31:17,2019-10-07 13:31:29,11.530s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.90,,,2019-10-07 13:31:29,2019-10-07 13:31:35,6.075s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/IngresarInformacion,Chrome 77.0.3865.90,Autenticación - portal clientes,,2019-10-07 13:31:37,2019-10-07 13:31:55,18.330s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.90,,,2019-10-07 13:31:37,2019-10-07 13:31:40,2.894s,PASSED
+"setText(findTestObject(""Object Repository/IniciarSesion/input_Correo electrnico_email""), ""usuarioprueba1@yopmail.com"")",Chrome 77.0.3865.90,,,2019-10-07 13:31:40,2019-10-07 13:31:47,6.628s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/IniciarSesion/input_Contrasea_password""), ""zpitzbFj1P6iY2h+x2z5qA=="")",Chrome 77.0.3865.90,,,2019-10-07 13:31:47,2019-10-07 13:31:53,6.368s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/SeleccionarBoton_Ingresar,Chrome 77.0.3865.90,,,2019-10-07 13:31:55,2019-10-07 13:32:41,45.430s,PASSED
+"click(findTestObject(""IniciarSesion/button_INGRESAR""))",Chrome 77.0.3865.90,,,2019-10-07 13:31:56,2019-10-07 13:32:00,4.228s,PASSED
+"waitForElementClickable(findTestObject(""IniciarSesion/button_INGRESAR""), 30)",Chrome 77.0.3865.90,,,2019-10-07 13:32:00,2019-10-07 13:32:30,30.349s,PASSED
+"click(findTestObject(""IniciarSesion/h3_Hola Victoria""))",Chrome 77.0.3865.90,,,2019-10-07 13:32:30,2019-10-07 13:32:35,4.184s,PASSED
+"waitForElementClickable(findTestObject(""IniciarSesion/h3_Hola Victoria""), 34)",Chrome 77.0.3865.90,,,2019-10-07 13:32:35,2019-10-07 13:32:39,4.179s,PASSED
+,,,,,,,
+Test Cases/Mi Cuenta/Registrar Menor/SeleccionarMenu_MiCuenta,Chrome 77.0.3865.90,,,2019-10-07 13:32:41,2019-10-07 13:32:52,10.774s,PASSED
+"click(findTestObject(""Object Repository/Modulo Mi Cuenta/a_Mi cuenta""))",Chrome 77.0.3865.90,,,2019-10-07 13:32:41,2019-10-07 13:32:45,4.224s,PASSED
+"waitForElementClickable(findTestObject(""Modulo Mi Cuenta/a_Mi cuenta""), 10)",Chrome 77.0.3865.90,,,2019-10-07 13:32:45,2019-10-07 13:32:50,4.134s,PASSED
+,,,,,,,
+Test Cases/Mi Cuenta/Registrar Menor/SeleccionarOpcion_Registrar Menor,Chrome 77.0.3865.90,,,2019-10-07 13:32:52,2019-10-07 13:32:58,6.602s,PASSED
+"click(findTestObject(""Object Repository/Modulo Mi Cuenta/a_Registrar menor""))",Chrome 77.0.3865.90,,,2019-10-07 13:32:52,2019-10-07 13:32:56,4.281s,PASSED
+,,,,,,,
+Test Cases/Mi Cuenta/Registrar Menor/Solicitud Registro de Menor/SeleccionarMenor,Chrome 77.0.3865.90,,,2019-10-07 13:32:58,2019-10-07 13:33:36,37.898s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Registrar Menor/Solicitud Registro Menor/select_Selecciona un menor de edad                  Mathias Gaviria MorenoAaron Josue Valenzuela MontaoYury Lissette Espitia Villalba""), ""1056133794"", true)",Chrome 77.0.3865.90,,,2019-10-07 13:32:59,2019-10-07 13:33:34,35.460s,PASSED
+,,,,,,,
+Test Cases/Mi Cuenta/Registrar Menor/Solicitud Registro de Menor/CargarDocumentos,Chrome 77.0.3865.90,,,2019-10-07 13:33:36,2019-10-07 13:33:39,2.570s,ERROR
+"path = RunConfiguration.getProjectDir() + ""/Data Files/""",Chrome 77.0.3865.90,,,2019-10-07 13:33:37,2019-10-07 13:33:37,0.012s,PASSED

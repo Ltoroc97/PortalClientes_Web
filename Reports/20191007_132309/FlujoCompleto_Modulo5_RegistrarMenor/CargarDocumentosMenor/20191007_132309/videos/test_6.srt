@@ -1,0 +1,4 @@
+1
+00:00:00,428 --> 00:00:00,429
+1. selectOptionByValue(findTestObject("Object Repository/Registrar Menor/Solicitud Registro Menor/select_Selecciona un menor de edad                  Mathias Gaviria MorenoAaron Josue Valenzuela MontaoYury Lissette Espitia Villalba"), "1056133794", true)
+

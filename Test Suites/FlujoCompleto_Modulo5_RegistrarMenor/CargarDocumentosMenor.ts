@@ -51,5 +51,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Mi Cuenta/Registrar Menor/Solicitud Registro de Menor/CargarDocumentos</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1b105801-5f24-4fd1-bfa6-252550a3b21a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a62eb4e6-0395-41ae-b58d-f509bc74384c</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

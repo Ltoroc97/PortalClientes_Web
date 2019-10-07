@@ -1,0 +1,12 @@
+1
+00:00:00,421 --> 00:00:00,422
+1. click(findTestObject("IniciarSesion/button_INGRESAR"))
+
+2
+00:00:00,664 --> 00:00:00,665
+5. waitForElementClickable(findTestObject("IniciarSesion/button_INGRESAR"), 30)
+
+3
+00:00:00,879 --> 00:00:00,880
+9. click(findTestObject("IniciarSesion/h3_Hola Victoria"))
+

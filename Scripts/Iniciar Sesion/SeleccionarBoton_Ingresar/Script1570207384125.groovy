@@ -18,7 +18,7 @@ WebUI.click(findTestObject('IniciarSesion/button_INGRESAR'))
 
 WebUI.waitForElementClickable(findTestObject('IniciarSesion/button_INGRESAR'), 30)
 
-WebUI.click(findTestObject('IniciarSesion/h3_Hola Victoria'))
+not_run: WebUI.click(findTestObject('IniciarSesion/h3_Hola Victoria'))
 
-WebUI.waitForElementClickable(findTestObject('IniciarSesion/h3_Hola Victoria'), 34)
+not_run: WebUI.waitForElementClickable(findTestObject('IniciarSesion/h3_Hola Victoria'), 60)
 

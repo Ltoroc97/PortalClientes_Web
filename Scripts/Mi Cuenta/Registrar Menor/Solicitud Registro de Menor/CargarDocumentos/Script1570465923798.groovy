@@ -14,6 +14,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
+import java.awt.Robot
+import java.awt.event.KeyEvent
+import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+
+
 String path = RunConfiguration.getProjectDir() + "/Data Files/"
 path = path.replace("/", "\\")
 
@@ -25,10 +33,10 @@ path = path.replace("/", "\\")
 
 
 
-CustomKeywords.'com.kms.katalon.keyword.uploadfile.UploadFile.uploadFileUsingRobot'(findTestObject('Object Repository/Registrar Menor/Solicitud Registro Menor/div_() Documento de identidad del solicitante_divFileDocument'),path + CargaDocumento1)
+CustomKeywords.'com.kms.katalon.keyword.uploadfile.UploadFile.uploadFileUsingRobot'(findTestObject('Object Repository/Registrar Menor/Solicitud Registro Menor/div_() Documento de identidad del solicitante_divFileDocument'),path + Campo1_CargarDocumentos)
 
 
-CustomKeywords.'com.kms.katalon.keyword.uploadfile.UploadFile.uploadFileUsingRobot'(findTestObject('Object Repository/Registrar Menor/Solicitud Registro Menor/div_() Registro civil del menor de edad_divFileRegister'),path + CargaDocumento1)
+CustomKeywords.'com.kms.katalon.keyword.uploadfile.UploadFile.uploadFileUsingRobot'(findTestObject('Object Repository/Registrar Menor/Solicitud Registro Menor/div_() Registro civil del menor de edad_divFileRegister'),path + Campo2_CargarDocumentos)
 
 
 WebUI.click(findTestObject('Object Repository/Registrar Menor/Solicitud Registro Menor/button_Enviar'))
