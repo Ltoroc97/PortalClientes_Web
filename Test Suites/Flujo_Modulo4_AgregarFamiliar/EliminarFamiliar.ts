@@ -17,16 +17,16 @@
       <testCaseId>Test Cases/Abrir Navegador/AbrirNavegador</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>62f68c28-760d-48ea-8338-f2dfc2557071</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Iniciar Sesion/SeleccionarBoton_Ingresar</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>449cdf31-5484-4cc6-bacc-2a2ee81f347b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Iniciar Sesion/IngresarInformacion</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>62f68c28-760d-48ea-8338-f2dfc2557071</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Iniciar Sesion/SeleccionarBoton_Ingresar</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d4b4860d-f8b8-4375-929e-caec0a85c74a</guid>

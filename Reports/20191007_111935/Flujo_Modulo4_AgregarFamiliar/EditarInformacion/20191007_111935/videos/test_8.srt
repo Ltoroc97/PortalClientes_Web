@@ -1,0 +1,4 @@
+1
+00:00:00,538 --> 00:00:00,540
+1. setText(findTestObject("Object Repository/Agregar Familiar/Visualizar Familiar Registrado/Editar Informacion/input_() Nombres_names"), "Leidy J")
+

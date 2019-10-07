@@ -1,0 +1,4 @@
+1
+00:00:00,536 --> 00:00:00,537
+1. selectOptionByValue(findTestObject("Object Repository/Registrar Menor/select_Seleccione Ced CiudadaniaTarj IdentidadCed ExtranjeriaPasaporteReg CivilNitOtro"), "2", true)
+

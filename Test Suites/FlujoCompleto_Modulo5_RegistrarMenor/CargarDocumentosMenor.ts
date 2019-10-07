@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>VisualizarFamiliarCreado</name>
+   <name>CargarDocumentosMenor</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,41 +9,47 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>7f5cc641-4329-4dd4-ac06-9a357e8a67b6</testSuiteGuid>
+   <testSuiteGuid>1b0655d5-8279-4124-81fe-5c0e2612ee22</testSuiteGuid>
    <testCaseLink>
-      <guid>77550f59-fc35-498e-8432-b5b42aba73b1</guid>
+      <guid>ea16694d-3db0-4f62-9a8a-948c4138a02f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Abrir Navegador/AbrirNavegador</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2d9e2e2a-414b-4eed-981f-647bf2c1c09b</guid>
+      <guid>091b1499-4147-4d11-95bd-bd4ffaf6c146</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Iniciar Sesion/IngresarInformacion</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>91d91722-7f30-4f99-a02e-63e75d7c6379</guid>
+      <guid>d46cc69a-9d6e-44ac-9188-7ac124914d89</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Iniciar Sesion/SeleccionarBoton_Ingresar</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ef0121cb-28cf-4e0e-97ee-43315b8a79b5</guid>
+      <guid>a40d1bf7-a7c7-47c7-8cff-45ad5b4229c4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mi Cuenta/Agregar Familiar/Visualizar Familiar Registrado/SeleccionarMenu_MiCuenta</testCaseId>
+      <testCaseId>Test Cases/Mi Cuenta/Registrar Menor/SeleccionarMenu_MiCuenta</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>158d13dc-7830-4cc2-9d63-be69e6cfc3d3</guid>
+      <guid>7d5893ec-d412-4a73-85c2-2e0b1e306779</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mi Cuenta/Agregar Familiar/Visualizar Familiar Registrado/SeleccionarOpcion_AgregarFamiliar</testCaseId>
+      <testCaseId>Test Cases/Mi Cuenta/Registrar Menor/SeleccionarOpcion_Registrar Menor</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>fac990e8-bd10-4973-9b20-e316d5ab5593</guid>
+      <guid>8ab110f9-dedc-4e4e-b92f-3f77406a80cf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mi Cuenta/Agregar Familiar/Visualizar Familiar Registrado/SeleccionarPaginaDos</testCaseId>
+      <testCaseId>Test Cases/Mi Cuenta/Registrar Menor/Solicitud Registro de Menor/SeleccionarMenor</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>899936fe-aa24-46ab-aebd-91b0c47c1dec</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mi Cuenta/Registrar Menor/Solicitud Registro de Menor/CargarDocumentos</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
