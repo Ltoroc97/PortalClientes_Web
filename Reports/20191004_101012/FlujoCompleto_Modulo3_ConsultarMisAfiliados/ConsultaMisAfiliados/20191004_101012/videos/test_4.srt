@@ -1,0 +1,8 @@
+1
+00:00:00,436 --> 00:00:00,437
+1. click(findTestObject("Object Repository/Modulo Mi Cuenta/a_Mi cuenta"))
+
+2
+00:00:00,649 --> 00:00:00,650
+5. waitForElementClickable(findTestObject("Modulo Mi Cuenta/a_Mi cuenta"), 10)
+

@@ -1,0 +1,4 @@
+1
+00:00:00,650 --> 00:00:00,650
+1. click(findTestObject("Object Repository/Agregar Familiar/Visualizar Familiar Registrado/Eliminar Familiar Registrado/div_Borrar Familiar      Ests seguro que lo deseas borrar"))
+

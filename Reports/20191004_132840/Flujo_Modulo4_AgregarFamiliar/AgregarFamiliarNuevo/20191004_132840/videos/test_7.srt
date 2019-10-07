@@ -1,0 +1,4 @@
+1
+00:00:00,366 --> 00:00:00,366
+1. selectOptionByValue(findTestObject("Object Repository/Agregar Familiar/select_Seleccione                  Ced CiudadaniaTarj IdentidadCed ExtranjeriaPasaporteReg CivilNitOtro"), "2", true)
+

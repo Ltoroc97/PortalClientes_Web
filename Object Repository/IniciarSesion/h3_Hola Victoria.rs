@@ -6,12 +6,12 @@
    <elementGuidId>324b1f28-0190-4e2b-b6be-861e1ecac49a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;content-header&quot;)/div[@class=&quot;header&quot;]/div[@class=&quot;col-md-9 col-xs-6&quot;]/div[@class=&quot;user&quot;]/h3[1][count(. | //h3[(text() = 'Hola Victoria ' or . = 'Hola Victoria ')]) = count(//h3[(text() = 'Hola Victoria ' or . = 'Hola Victoria ')])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//header[@id='content-header']/div/div[3]/div/h3</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;content-header&quot;)/div[@class=&quot;header&quot;]/div[@class=&quot;col-md-9 col-xs-6&quot;]/div[@class=&quot;user&quot;]/h3[1][count(. | //h3[(text() = 'Hola Victoria ' or . = 'Hola Victoria ')]) = count(//h3[(text() = 'Hola Victoria ' or . = 'Hola Victoria ')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

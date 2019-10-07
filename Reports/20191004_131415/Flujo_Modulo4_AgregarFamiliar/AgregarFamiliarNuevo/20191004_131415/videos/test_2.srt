@@ -1,0 +1,8 @@
+1
+00:00:00,362 --> 00:00:00,364
+1. click(findTestObject("IniciarSesion/button_INGRESAR"))
+
+2
+00:00:00,600 --> 00:00:00,600
+5. click(findTestObject("IniciarSesion/h3_Hola Victoria"))
+

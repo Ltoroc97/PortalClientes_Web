@@ -1,0 +1,16 @@
+1
+00:00:00,279 --> 00:00:00,279
+1. selectOptionByValue(findTestObject("Object Repository/Agregar Familiar/select_Seleccione                  Ced CiudadaniaTarj IdentidadCed ExtranjeriaPasaporteReg CivilNitOtro"), "2", true)
+
+2
+00:00:00,741 --> 00:00:00,742
+5. setText(findTestObject("Object Repository/Agregar Familiar/input_() Nmero de documento_documentNumber"), "97041804312")
+
+3
+00:00:00,973 --> 00:00:00,974
+9. click(findTestObject("Object Repository/Agregar Familiar/button_BUSCAR"))
+
+4
+00:00:01,134 --> 00:00:01,136
+13. click(findTestObject("Object Repository/Agregar Familiar/button_ACEPTAR"))
+

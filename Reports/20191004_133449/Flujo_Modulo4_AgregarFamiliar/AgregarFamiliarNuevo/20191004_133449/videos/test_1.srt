@@ -1,0 +1,8 @@
+1
+00:00:00,556 --> 00:00:00,559
+1. openBrowser("")
+
+2
+00:00:05,216 --> 00:00:05,217
+5. navigateToUrl("https://test-portalclientesyventas-co.azurewebsites.net/login")
+

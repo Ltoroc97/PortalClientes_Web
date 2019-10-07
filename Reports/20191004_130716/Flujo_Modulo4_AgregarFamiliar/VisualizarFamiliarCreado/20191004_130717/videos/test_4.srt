@@ -1,0 +1,4 @@
+1
+00:00:00,298 --> 00:00:00,299
+1. click(findTestObject("Object Repository/Modulo Mi Cuenta/a_Mi cuenta"))
+

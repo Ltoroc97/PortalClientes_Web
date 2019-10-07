@@ -1,0 +1,12 @@
+1
+00:00:00,581 --> 00:00:00,582
+1. navigateToUrl("https://test-portalclientesyventas-co.azurewebsites.net/login")
+
+2
+00:00:02,039 --> 00:00:02,039
+5. setText(findTestObject("Object Repository/IniciarSesion/input_Correo electrnico_email"), "usuarioprueba1@yopmail.com")
+
+3
+00:00:02,819 --> 00:00:02,820
+9. setEncryptedText(findTestObject("Object Repository/IniciarSesion/input_Contrasea_password"), "zpitzbFj1P6iY2h+x2z5qA==")
+

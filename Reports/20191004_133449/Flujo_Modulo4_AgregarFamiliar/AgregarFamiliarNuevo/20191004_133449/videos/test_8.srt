@@ -1,0 +1,12 @@
+1
+00:00:00,305 --> 00:00:00,307
+1. setText(findTestObject("Object Repository/Agregar Familiar/input_() Nombres_names"), "Leidy")
+
+2
+00:00:00,534 --> 00:00:00,535
+5. setText(findTestObject("Object Repository/Agregar Familiar/input_() Apellidos_lastnames"), "Toro Cataño")
+
+3
+00:00:00,771 --> 00:00:00,771
+9. click(findTestObject("Object Repository/Agregar Familiar/button_AGREGAR"))
+

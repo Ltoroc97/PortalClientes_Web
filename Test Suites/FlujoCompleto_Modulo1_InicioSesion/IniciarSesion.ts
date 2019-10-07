@@ -14,18 +14,18 @@
       <guid>5f8a8ebb-55cd-4641-b0d1-8932a80afb07</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/AbrirNavegador/AbrirNavegador</testCaseId>
+      <testCaseId>Test Cases/Abrir Navegador/AbrirNavegador</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>31651c2c-f902-4b47-9265-8a7226dc5f5a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/IniciarSesion/IngresarInformacion</testCaseId>
+      <testCaseId>Test Cases/Iniciar Sesion/IngresarInformacion</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e831995e-905d-415f-a052-d8cd5ed852c3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/IniciarSesion/SeleccionarBoton_Ingresar</testCaseId>
+      <testCaseId>Test Cases/Iniciar Sesion/SeleccionarBoton_Ingresar</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

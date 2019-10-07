@@ -1,0 +1,4 @@
+1
+00:00:00,264 --> 00:00:00,265
+1. click(findTestObject("Object Repository/Agregar Familiar/button_AGREGAR FAMILIAR"))
+

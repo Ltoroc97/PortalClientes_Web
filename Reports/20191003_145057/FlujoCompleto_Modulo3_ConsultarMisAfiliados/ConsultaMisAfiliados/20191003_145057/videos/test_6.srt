@@ -1,0 +1,4 @@
+1
+00:00:00,652 --> 00:00:00,653
+1. click(findTestObject("Object Repository/Mis Afiliados/div_Victoria Eugenia Vargas De Navarro              Cc 21371502"))
+

@@ -1,0 +1,8 @@
+1
+00:00:00,389 --> 00:00:00,390
+1. click(findTestObject("Object Repository/Mis Afiliados/div_Victoria Eugenia Vargas De Navarro              Cc 21371502"))
+
+2
+00:00:00,627 --> 00:00:00,628
+5. waitForElementClickable(findTestObject("Mis Afiliados/div_Victoria Eugenia Vargas De Navarro              Cc 21371502"), 10)
+
