@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'DocumentoPrueba.png\r\n'</initValue>
+      <name>CargaDocumento1</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
