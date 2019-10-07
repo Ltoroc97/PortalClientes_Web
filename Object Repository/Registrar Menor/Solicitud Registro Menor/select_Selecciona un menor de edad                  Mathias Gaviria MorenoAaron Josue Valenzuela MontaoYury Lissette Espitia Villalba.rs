@@ -9,8 +9,24 @@
          <key>XPATH</key>
          <value>//select[@id='idDocument']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;idDocument&quot;)[count(. | //*[@id = 'idDocument' and @name = 'idDocument' and (text() = '
+                  Selecciona un menor de edad
+                  Mathias Gaviria MorenoAaron Josue Valenzuela MontañoYury Lissette Espitia Villalba
+                ' or . = '
+                  Selecciona un menor de edad
+                  Mathias Gaviria MorenoAaron Josue Valenzuela MontañoYury Lissette Espitia Villalba
+                ')]) = count(//*[@id = 'idDocument' and @name = 'idDocument' and (text() = '
+                  Selecciona un menor de edad
+                  Mathias Gaviria MorenoAaron Josue Valenzuela MontañoYury Lissette Espitia Villalba
+                ' or . = '
+                  Selecciona un menor de edad
+                  Mathias Gaviria MorenoAaron Josue Valenzuela MontañoYury Lissette Espitia Villalba
+                ')])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +74,7 @@
                 </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

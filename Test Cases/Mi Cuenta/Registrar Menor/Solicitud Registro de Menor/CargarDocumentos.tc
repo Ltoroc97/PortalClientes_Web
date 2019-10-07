@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b41a89cb-9397-4514-a440-018f88e57818</testCaseGuid>
+   <variable>
+      <defaultValue>'DocumentoPrueba.png\r\n'</defaultValue>
+      <description></description>
+      <id>1b105801-5f24-4fd1-bfa6-252550a3b21a</id>
+      <masked>false</masked>
+      <name>Campo1_CargarDocumentos</name>
+   </variable>
+   <variable>
+      <defaultValue>'DocumentoPrueba.png\r\n'</defaultValue>
+      <description></description>
+      <id>a62eb4e6-0395-41ae-b58d-f509bc74384c</id>
+      <masked>false</masked>
+      <name>Campo2_CargarDocumentos</name>
+   </variable>
 </TestCaseEntity>
