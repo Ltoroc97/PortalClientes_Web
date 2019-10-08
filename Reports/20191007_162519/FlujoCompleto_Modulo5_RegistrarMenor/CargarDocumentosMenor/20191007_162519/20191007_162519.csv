@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CargarDocumentosMenor,Chrome 77.0.3865.90,,,2019-10-07 16:25:27,2019-10-07 16:27:00,1m - 33.193s,INCOMPLETE
+,,,,,,,
+Test Cases/Abrir Navegador/AbrirNavegador,Chrome 77.0.3865.90,,,2019-10-07 16:25:27,2019-10-07 16:25:40,12.815s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.90,,,2019-10-07 16:25:27,2019-10-07 16:25:35,7.683s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.90,,,2019-10-07 16:25:35,2019-10-07 16:25:40,4.840s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/IngresarInformacion,Chrome 77.0.3865.90,Autenticación - portal clientes,,2019-10-07 16:25:40,2019-10-07 16:25:49,9.062s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.90,,,2019-10-07 16:25:40,2019-10-07 16:25:42,1.563s,PASSED
+"setText(findTestObject(""Object Repository/IniciarSesion/input_Correo electrnico_email""), ""usuarioprueba1@yopmail.com"")",Chrome 77.0.3865.90,,,2019-10-07 16:25:42,2019-10-07 16:25:45,3.576s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/IniciarSesion/input_Contrasea_password""), ""zpitzbFj1P6iY2h+x2z5qA=="")",Chrome 77.0.3865.90,,,2019-10-07 16:25:45,2019-10-07 16:25:49,3.514s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/SeleccionarBoton_Ingresar,Chrome 77.0.3865.90,,,2019-10-07 16:25:49,2019-10-07 16:25:55,6.291s,FAILED
+"click(findTestObject(""IniciarSesion/button_INGRESAR""))",Chrome 77.0.3865.90,,,2019-10-07 16:25:49,2019-10-07 16:25:51,2.299s,PASSED
+"waitForElementClickable(findTestObject(""IniciarSesion/button_INGRESAR""), 600)",Chrome 77.0.3865.90,,,2019-10-07 16:25:51,2019-10-07 16:25:55,3.646s,FAILED
+,,,,,,,
+Test Cases/Mi Cuenta/Registrar Menor/SeleccionarMenu_MiCuenta,Chrome 77.0.3865.90,,,2019-10-07 16:25:55,2019-10-07 16:26:09,13.594s,PASSED
+"click(findTestObject(""Object Repository/Modulo Mi Cuenta/a_Mi cuenta""))",Chrome 77.0.3865.90,,,2019-10-07 16:25:56,2019-10-07 16:25:58,2.336s,PASSED
+"waitForElementClickable(findTestObject(""Modulo Mi Cuenta/a_Mi cuenta""), 10)",Chrome 77.0.3865.90,,,2019-10-07 16:25:58,2019-10-07 16:26:09,10.818s,PASSED
+,,,,,,,
+Test Cases/Mi Cuenta/Registrar Menor/SeleccionarOpcion_Registrar Menor,Chrome 77.0.3865.90,,,2019-10-07 16:26:09,2019-10-07 16:26:11,2.762s,PASSED
+"click(findTestObject(""Object Repository/Modulo Mi Cuenta/a_Registrar menor""))",Chrome 77.0.3865.90,,,2019-10-07 16:26:09,2019-10-07 16:26:11,2.395s,PASSED
+,,,,,,,
+Test Cases/Mi Cuenta/Registrar Menor/Solicitud Registro de Menor/SeleccionarMenor,Chrome 77.0.3865.90,,,2019-10-07 16:26:11,2019-10-07 16:26:37,25.208s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Registrar Menor/Solicitud Registro Menor/select_Selecciona un menor de edad                  Mathias Gaviria MorenoAaron Josue Valenzuela MontaoYury Lissette Espitia Villalba""), ""1056133794"", true)",Chrome 77.0.3865.90,,,2019-10-07 16:26:12,2019-10-07 16:26:37,24.830s,PASSED
+,,,,,,,
+Test Cases/Mi Cuenta/Registrar Menor/Solicitud Registro de Menor/CargarDocumentos,Chrome 77.0.3865.90,,,2019-10-07 16:26:37,2019-10-07 16:27:00,23.153s,PASSED
+"path = getProjectDir() + ""/Data Files/""",Chrome 77.0.3865.90,,,2019-10-07 16:26:37,2019-10-07 16:26:37,0.001s,PASSED
+"path = path.replace(""/"", ""\"")",Chrome 77.0.3865.90,,,2019-10-07 16:26:37,2019-10-07 16:26:37,0.001s,PASSED
+"com.kms.katalon.keyword.uploadfile.UploadFile.uploadFileUsingRobot(findTestObject(""Object Repository/Registrar Menor/Solicitud Registro Menor/div_() Documento de identidad del solicitante_divFileDocument""), path + Campo1_CargarDocumentos)",Chrome 77.0.3865.90,,,2019-10-07 16:26:37,2019-10-07 16:26:49,11.878s,PASSED
+"com.kms.katalon.keyword.uploadfile.UploadFile.uploadFileUsingRobot(findTestObject(""Object Repository/Registrar Menor/Solicitud Registro Menor/div_() Registro civil del menor de edad_divFileRegister""), path + Campo2_CargarDocumentos)",Chrome 77.0.3865.90,,,2019-10-07 16:26:49,2019-10-07 16:26:57,8.334s,PASSED
+"click(findTestObject(""Object Repository/Registrar Menor/Solicitud Registro Menor/button_Enviar""))",Chrome 77.0.3865.90,,,2019-10-07 16:26:57,2019-10-07 16:27:00,2.388s,PASSED

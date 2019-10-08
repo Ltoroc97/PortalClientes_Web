@@ -13,7 +13,7 @@
       <name>Campo1_CargarDocumentos</name>
    </variable>
    <variable>
-      <defaultValue>'DocumentoPrueba.png\r\n'</defaultValue>
+      <defaultValue>'DocumentoPrueba 2.png\r\n'</defaultValue>
       <description></description>
       <id>a62eb4e6-0395-41ae-b58d-f509bc74384c</id>
       <masked>false</masked>
