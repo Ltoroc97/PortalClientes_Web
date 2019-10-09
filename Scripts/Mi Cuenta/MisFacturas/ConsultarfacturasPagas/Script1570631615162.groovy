@@ -14,11 +14,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('IniciarSesion/button_INGRESAR'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/MisFacturas/select_Seleccione                PagaImpaga'), '1', 
+    true)
 
-<<<<<<< HEAD
-WebUI.delay(30)
-=======
-WebUI.delay(10)
->>>>>>> branch 'master' of https://github.com/Ltoroc97/PortalClientes_Web.git
+WebUI.click(findTestObject('Object Repository/MisFacturas/button_BUSCAR'))
+
+WebUI.delay(2)
 

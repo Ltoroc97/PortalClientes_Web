@@ -1,0 +1,1133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-10-08T15:45:02</date>
+  <millis>1570567502440</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Modulo1_Mi Cuenta/FlujoCompleto_ConfigurarCuenta/Editar Correo/Cancelar_CambioCorreo</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Cancelar_CambioCorreo</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Modulo1_Mi Cuenta/FlujoCompleto_ConfigurarCuenta/Editar Correo/Cancelar_CambioCorreo</property>
+</record>
+<record>
+  <date>2019-10-08T15:45:02</date>
+  <millis>1570567502456</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Ltoroc - P-Ltoroc.intergrupo.com</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Ltoroc - P-Ltoroc.intergrupo.com</property>
+</record>
+<record>
+  <date>2019-10-08T15:45:02</date>
+  <millis>1570567502456</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 32bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 32bit</property>
+</record>
+<record>
+  <date>2019-10-08T15:45:02</date>
+  <millis>1570567502457</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.0.14</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.0.14</property>
+</record>
+<record>
+  <date>2019-10-08T15:45:02</date>
+  <millis>1570567502458</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.3.0.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.3.0.1</property>
+</record>
+<record>
+  <date>2019-10-08T15:45:02</date>
+  <millis>1570567502674</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Abrir Navegador/AbrirNavegador</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Abrir Navegador/AbrirNavegador</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Abrir Navegador/AbrirNavegador</property>
+  <property name="source">E:\\TORO\\INTERGRUPO\\AUTOMATIZACION_PROYECTOS\\PROYECTOS\\EMI\\PortalClientes_Web\\Test Cases\\Abrir Navegador\\AbrirNavegador.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-10-08T15:45:03</date>
+  <millis>1570567503055</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-08T15:45:03</date>
+  <millis>1570567503295</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:45:03</date>
+  <millis>1570567503329</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 1 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:45:09</date>
+  <millis>1570567509205</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 3a574da80f1440066392560aa5ab3096</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">3a574da80f1440066392560aa5ab3096</property>
+</record>
+<record>
+  <date>2019-10-08T15:45:10</date>
+  <millis>1570567510231</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 77.0.3865.90</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 77.0.3865.90</property>
+</record>
+<record>
+  <date>2019-10-08T15:45:10</date>
+  <millis>1570567510231</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-10-08T15:45:10</date>
+  <millis>1570567510232</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2019-10-08T15:45:10</date>
+  <millis>1570567510233</millis>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-10-08T15:45:10</date>
+  <millis>1570567510233</millis>
+  <sequence>18</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:45:10</date>
+  <millis>1570567510234</millis>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:45:10</date>
+  <millis>1570567510234</millis>
+  <sequence>20</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-10-08T15:45:12</date>
+  <millis>1570567512373</millis>
+  <sequence>22</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:45:12</date>
+  <millis>1570567512373</millis>
+  <sequence>23</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:45:12</date>
+  <millis>1570567512373</millis>
+  <sequence>24</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;https://test-portalclientesyventas-co.azurewebsites.net/login\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-10-08T15:45:17</date>
+  <millis>1570567517325</millis>
+  <sequence>27</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://test-portalclientesyventas-co.azurewebsites.net/login&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:45:17</date>
+  <millis>1570567517326</millis>
+  <sequence>28</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;https://test-portalclientesyventas-co.azurewebsites.net/login\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:45:17</date>
+  <millis>1570567517326</millis>
+  <sequence>29</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Abrir Navegador/AbrirNavegador</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:45:17</date>
+  <millis>1570567517327</millis>
+  <sequence>30</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Abrir Navegador/AbrirNavegador</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:45:17</date>
+  <millis>1570567517334</millis>
+  <sequence>31</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Iniciar Sesion/IngresarInformacion</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Iniciar Sesion/IngresarInformacion</property>
+  <property name="description">Autenticaci\u00F3n - portal clientes</property>
+  <property name="id">Test Cases/Iniciar Sesion/IngresarInformacion</property>
+  <property name="source">E:\\TORO\\INTERGRUPO\\AUTOMATIZACION_PROYECTOS\\PROYECTOS\\EMI\\PortalClientes_Web\\Test Cases\\Iniciar Sesion\\IngresarInformacion.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-10-08T15:45:17</date>
+  <millis>1570567517826</millis>
+  <sequence>33</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;https://test-portalclientesyventas-co.azurewebsites.net/login\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-08T15:45:19</date>
+  <millis>1570567519302</millis>
+  <sequence>36</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://test-portalclientesyventas-co.azurewebsites.net/login&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:45:19</date>
+  <millis>1570567519304</millis>
+  <sequence>37</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;https://test-portalclientesyventas-co.azurewebsites.net/login\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:45:19</date>
+  <millis>1570567519304</millis>
+  <sequence>38</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/IniciarSesion/input_Correo electrnico_email\&amp;quot;), \&amp;quot;usuarioprueba1@yopmail.com\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-10-08T15:45:22</date>
+  <millis>1570567522816</millis>
+  <sequence>47</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;usuarioprueba1@yopmail.com&amp;apos; is set on object &amp;apos;Object Repository/IniciarSesion/input_Correo electrnico_email&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:45:22</date>
+  <millis>1570567522817</millis>
+  <sequence>48</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/IniciarSesion/input_Correo electrnico_email\&amp;quot;), \&amp;quot;usuarioprueba1@yopmail.com\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:45:22</date>
+  <millis>1570567522817</millis>
+  <sequence>49</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setEncryptedText(findTestObject(\&amp;quot;Object Repository/IniciarSesion/input_Contrasea_password\&amp;quot;), \&amp;quot;zpitzbFj1P6iY2h+x2z5qA==\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-10-08T15:45:26</date>
+  <millis>1570567526143</millis>
+  <sequence>58</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text ****** has been set on object &amp;apos;Object Repository/IniciarSesion/input_Contrasea_password&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:45:26</date>
+  <millis>1570567526144</millis>
+  <sequence>59</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setEncryptedText(findTestObject(\&amp;quot;Object Repository/IniciarSesion/input_Contrasea_password\&amp;quot;), \&amp;quot;zpitzbFj1P6iY2h+x2z5qA==\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:45:26</date>
+  <millis>1570567526144</millis>
+  <sequence>60</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Iniciar Sesion/IngresarInformacion</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:45:26</date>
+  <millis>1570567526145</millis>
+  <sequence>61</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Iniciar Sesion/IngresarInformacion</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:45:26</date>
+  <millis>1570567526149</millis>
+  <sequence>62</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Iniciar Sesion/SeleccionarBoton_Ingresar</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Iniciar Sesion/SeleccionarBoton_Ingresar</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Iniciar Sesion/SeleccionarBoton_Ingresar</property>
+  <property name="source">E:\\TORO\\INTERGRUPO\\AUTOMATIZACION_PROYECTOS\\PROYECTOS\\EMI\\PortalClientes_Web\\Test Cases\\Iniciar Sesion\\SeleccionarBoton_Ingresar.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-10-08T15:45:26</date>
+  <millis>1570567526463</millis>
+  <sequence>64</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;IniciarSesion/button_INGRESAR\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-08T15:45:28</date>
+  <millis>1570567528647</millis>
+  <sequence>71</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/IniciarSesion/button_INGRESAR&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:45:28</date>
+  <millis>1570567528648</millis>
+  <sequence>72</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;IniciarSesion/button_INGRESAR\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:45:28</date>
+  <millis>1570567528648</millis>
+  <sequence>73</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(30)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-10-08T15:45:58</date>
+  <millis>1570567558676</millis>
+  <sequence>75</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 30 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:45:58</date>
+  <millis>1570567558677</millis>
+  <sequence>76</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(30)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:45:58</date>
+  <millis>1570567558677</millis>
+  <sequence>77</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Iniciar Sesion/SeleccionarBoton_Ingresar</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:45:58</date>
+  <millis>1570567558679</millis>
+  <sequence>78</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Iniciar Sesion/SeleccionarBoton_Ingresar</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:45:58</date>
+  <millis>1570567558700</millis>
+  <sequence>79</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Mi Cuenta/Configurar Cuenta/SeleccionarMenu_MiCuenta</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Mi Cuenta/Configurar Cuenta/SeleccionarMenu_MiCuenta</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Mi Cuenta/Configurar Cuenta/SeleccionarMenu_MiCuenta</property>
+  <property name="source">E:\\TORO\\INTERGRUPO\\AUTOMATIZACION_PROYECTOS\\PROYECTOS\\EMI\\PortalClientes_Web\\Test Cases\\Mi Cuenta\\Configurar Cuenta\\SeleccionarMenu_MiCuenta.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-10-08T15:45:58</date>
+  <millis>1570567558996</millis>
+  <sequence>81</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/Modulo Mi Cuenta/a_Mi cuenta\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-08T15:46:01</date>
+  <millis>1570567561216</millis>
+  <sequence>88</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Modulo Mi Cuenta/a_Mi cuenta&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:01</date>
+  <millis>1570567561216</millis>
+  <sequence>89</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/Modulo Mi Cuenta/a_Mi cuenta\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:01</date>
+  <millis>1570567561217</millis>
+  <sequence>90</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementClickable(findTestObject(\&amp;quot;Modulo Mi Cuenta/a_Mi cuenta\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-10-08T15:46:12</date>
+  <millis>1570567572029</millis>
+  <sequence>96</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to find the element located by &amp;apos;By.xpath: id(\&amp;quot;conten1\&amp;quot;)/nav[@class=\&amp;quot;navbar navbar-default sidebar\&amp;quot;]/div[1]/div[1]/ms-sidenav[1]/ul[@class=\&amp;quot;nav navbar-nav\&amp;quot;]/ms-sidenav-item[@class=\&amp;quot;sidenav-item\&amp;quot;]/li[@class=\&amp;quot;dropdown\&amp;quot;]/a[@id=\&amp;quot;dropdown-items-menu\&amp;quot;][count(. | //*[@href = &amp;apos;#&amp;apos; and @id = &amp;apos;dropdown-items-menu&amp;apos; and (text() = &amp;apos;\n    Mi cuenta\n    \n  &amp;apos; or . = &amp;apos;\n    Mi cuenta\n    \n  &amp;apos;)]) = count(//*[@href = &amp;apos;#&amp;apos; and @id = &amp;apos;dropdown-items-menu&amp;apos; and (text() = &amp;apos;\n    Mi cuenta\n    \n  &amp;apos; or . = &amp;apos;\n    Mi cuenta\n    \n  &amp;apos;)])]&amp;apos;. Please recheck the objects properties to make sure the desired element is located. </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:12</date>
+  <millis>1570567572056</millis>
+  <sequence>98</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Web element with id: &amp;apos;Object Repository/Modulo Mi Cuenta/a_Mi cuenta&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;conten1\&amp;quot;)/nav[@class=\&amp;quot;navbar navbar-default sidebar\&amp;quot;]/div[1]/div[1]/ms-sidenav[1]/ul[@class=\&amp;quot;nav navbar-nav\&amp;quot;]/ms-sidenav-item[@class=\&amp;quot;sidenav-item\&amp;quot;]/li[@class=\&amp;quot;dropdown\&amp;quot;]/a[@id=\&amp;quot;dropdown-items-menu\&amp;quot;][count(. | //*[@href = &amp;apos;#&amp;apos; and @id = &amp;apos;dropdown-items-menu&amp;apos; and (text() = &amp;apos;\n    Mi cuenta\n    \n  &amp;apos; or . = &amp;apos;\n    Mi cuenta\n    \n  &amp;apos;)]) = count(//*[@href = &amp;apos;#&amp;apos; and @id = &amp;apos;dropdown-items-menu&amp;apos; and (text() = &amp;apos;\n    Mi cuenta\n    \n  &amp;apos; or . = &amp;apos;\n    Mi cuenta\n    \n  &amp;apos;)])]&amp;apos; not found</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">com.kms.katalon.core.webui.exception.WebElementNotFoundException</property>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: &apos;Object Repository/Modulo Mi Cuenta/a_Mi cuenta&apos; located by &apos;By.xpath: id(\&quot;conten1\&quot;)/nav[@class=\&quot;navbar navbar-default sidebar\&quot;]/div[1]/div[1]/ms-sidenav[1]/ul[@class=\&quot;nav navbar-nav\&quot;]/ms-sidenav-item[@class=\&quot;sidenav-item\&quot;]/li[@class=\&quot;dropdown\&quot;]/a[@id=\&quot;dropdown-items-menu\&quot;][count(. | //*[@href = &apos;#&apos; and @id = &apos;dropdown-items-menu&apos; and (text() = &apos;\n    Mi cuenta\n    \n  &apos; or . = &apos;\n    Mi cuenta\n    \n  &apos;)]) = count(//*[@href = &apos;#&apos; and @id = &apos;dropdown-items-menu&apos; and (text() = &apos;\n    Mi cuenta\n    \n  &apos; or . = &apos;\n    Mi cuenta\n    \n  &apos;)])]&apos; not found\r\n\tat com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword$_waitForElementClickable_closure1.doCall(WaitForElementClickableKeyword.groovy:80)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword$_waitForElementClickable_closure1.call(WaitForElementClickableKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.waitForElementClickable(WaitForElementClickableKeyword.groovy:108)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.execute(WaitForElementClickableKeyword.groovy:68)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementClickable(WebUiBuiltInKeywords.groovy:500)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementClickable$5.call(Unknown Source)\r\n\tat SeleccionarMenu_MiCuenta.run(SeleccionarMenu_MiCuenta:19)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:150)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:123)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:87)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1570567499536.run(TempTestSuite1570567499536.groovy:35)\r\n</property>
+  <property name="failed.exception.message">Web element with id: &apos;Object Repository/Modulo Mi Cuenta/a_Mi cuenta&apos; located by &apos;By.xpath: id(\&quot;conten1\&quot;)/nav[@class=\&quot;navbar navbar-default sidebar\&quot;]/div[1]/div[1]/ms-sidenav[1]/ul[@class=\&quot;nav navbar-nav\&quot;]/ms-sidenav-item[@class=\&quot;sidenav-item\&quot;]/li[@class=\&quot;dropdown\&quot;]/a[@id=\&quot;dropdown-items-menu\&quot;][count(. | //*[@href = &apos;#&apos; and @id = &apos;dropdown-items-menu&apos; and (text() = &apos;\n    Mi cuenta\n    \n  &apos; or . = &apos;\n    Mi cuenta\n    \n  &apos;)]) = count(//*[@href = &apos;#&apos; and @id = &apos;dropdown-items-menu&apos; and (text() = &apos;\n    Mi cuenta\n    \n  &apos; or . = &apos;\n    Mi cuenta\n    \n  &apos;)])]&apos; not found</property>
+</record>
+<record>
+  <date>2019-10-08T15:46:12</date>
+  <millis>1570567572058</millis>
+  <sequence>99</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementClickable(findTestObject(\&amp;quot;Modulo Mi Cuenta/a_Mi cuenta\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:12</date>
+  <millis>1570567572058</millis>
+  <sequence>100</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Mi Cuenta/Configurar Cuenta/SeleccionarMenu_MiCuenta</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:12</date>
+  <millis>1570567572059</millis>
+  <sequence>101</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Mi Cuenta/Configurar Cuenta/SeleccionarMenu_MiCuenta</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:12</date>
+  <millis>1570567572062</millis>
+  <sequence>102</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Mi Cuenta/Configurar Cuenta/SeleccionarOpcion_ConfigurarCuenta</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Mi Cuenta/Configurar Cuenta/SeleccionarOpcion_ConfigurarCuenta</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Mi Cuenta/Configurar Cuenta/SeleccionarOpcion_ConfigurarCuenta</property>
+  <property name="source">E:\\TORO\\INTERGRUPO\\AUTOMATIZACION_PROYECTOS\\PROYECTOS\\EMI\\PortalClientes_Web\\Test Cases\\Mi Cuenta\\Configurar Cuenta\\SeleccionarOpcion_ConfigurarCuenta.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-10-08T15:46:12</date>
+  <millis>1570567572342</millis>
+  <sequence>104</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/Modulo Mi Cuenta/a_Configurar cuenta\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-08T15:46:14</date>
+  <millis>1570567574599</millis>
+  <sequence>111</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Modulo Mi Cuenta/a_Configurar cuenta&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:14</date>
+  <millis>1570567574599</millis>
+  <sequence>112</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/Modulo Mi Cuenta/a_Configurar cuenta\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:14</date>
+  <millis>1570567574599</millis>
+  <sequence>113</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Mi Cuenta/Configurar Cuenta/SeleccionarOpcion_ConfigurarCuenta</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:14</date>
+  <millis>1570567574601</millis>
+  <sequence>114</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Mi Cuenta/Configurar Cuenta/SeleccionarOpcion_ConfigurarCuenta</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:14</date>
+  <millis>1570567574606</millis>
+  <sequence>115</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Mi Cuenta/Configurar Cuenta/Editar Correo Electronico/SeleccionarTab_EditarCorreo</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Mi Cuenta/Configurar Cuenta/Editar Correo Electronico/SeleccionarTab_EditarCorreo</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Mi Cuenta/Configurar Cuenta/Editar Correo Electronico/SeleccionarTab_EditarCorreo</property>
+  <property name="source">E:\\TORO\\INTERGRUPO\\AUTOMATIZACION_PROYECTOS\\PROYECTOS\\EMI\\PortalClientes_Web\\Test Cases\\Mi Cuenta\\Configurar Cuenta\\Editar Correo Electronico\\SeleccionarTab_EditarCorreo.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-10-08T15:46:14</date>
+  <millis>1570567574969</millis>
+  <sequence>117</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Configurar Cuenta/Editar Correo/a_Editar correo electrnico\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-08T15:46:17</date>
+  <millis>1570567577197</millis>
+  <sequence>124</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Configurar Cuenta/Editar Correo/a_Editar correo electrnico&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:17</date>
+  <millis>1570567577198</millis>
+  <sequence>125</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Configurar Cuenta/Editar Correo/a_Editar correo electrnico\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:17</date>
+  <millis>1570567577198</millis>
+  <sequence>126</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Mi Cuenta/Configurar Cuenta/Editar Correo Electronico/SeleccionarTab_EditarCorreo</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:17</date>
+  <millis>1570567577199</millis>
+  <sequence>127</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Mi Cuenta/Configurar Cuenta/Editar Correo Electronico/SeleccionarTab_EditarCorreo</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:17</date>
+  <millis>1570567577205</millis>
+  <sequence>128</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Mi Cuenta/Configurar Cuenta/Editar Correo Electronico/IngresarInformacion</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Mi Cuenta/Configurar Cuenta/Editar Correo Electronico/IngresarInformacion</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Mi Cuenta/Configurar Cuenta/Editar Correo Electronico/IngresarInformacion</property>
+  <property name="source">E:\\TORO\\INTERGRUPO\\AUTOMATIZACION_PROYECTOS\\PROYECTOS\\EMI\\PortalClientes_Web\\Test Cases\\Mi Cuenta\\Configurar Cuenta\\Editar Correo Electronico\\IngresarInformacion.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-10-08T15:46:17</date>
+  <millis>1570567577557</millis>
+  <sequence>130</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Configurar Cuenta/Editar Correo/input_() Correo electrnico actual_AuthenticationEmail\&amp;quot;), \&amp;quot;usuarioprueba1@yopmail.com\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-08T15:46:20</date>
+  <millis>1570567580959</millis>
+  <sequence>139</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;usuarioprueba1@yopmail.com&amp;apos; is set on object &amp;apos;Object Repository/Configurar Cuenta/Editar Correo/input_() Correo electrnico actual_AuthenticationEmail&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:20</date>
+  <millis>1570567580959</millis>
+  <sequence>140</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Configurar Cuenta/Editar Correo/input_() Correo electrnico actual_AuthenticationEmail\&amp;quot;), \&amp;quot;usuarioprueba1@yopmail.com\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:20</date>
+  <millis>1570567580959</millis>
+  <sequence>141</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Configurar Cuenta/Editar Correo/input_() Nuevo correo electrnico_Email\&amp;quot;), \&amp;quot;usuarioprueba2@yopmail.com\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-10-08T15:46:24</date>
+  <millis>1570567584273</millis>
+  <sequence>150</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;usuarioprueba2@yopmail.com&amp;apos; is set on object &amp;apos;Object Repository/Configurar Cuenta/Editar Correo/input_() Nuevo correo electrnico_Email&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:24</date>
+  <millis>1570567584273</millis>
+  <sequence>151</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Configurar Cuenta/Editar Correo/input_() Nuevo correo electrnico_Email\&amp;quot;), \&amp;quot;usuarioprueba2@yopmail.com\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:24</date>
+  <millis>1570567584274</millis>
+  <sequence>152</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Configurar Cuenta/Editar Correo/input_() Confirmar correo electrnico_RepeatEmail\&amp;quot;), \&amp;quot;usuarioprueba2@yopmail.com\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-10-08T15:46:27</date>
+  <millis>1570567587696</millis>
+  <sequence>161</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;usuarioprueba2@yopmail.com&amp;apos; is set on object &amp;apos;Object Repository/Configurar Cuenta/Editar Correo/input_() Confirmar correo electrnico_RepeatEmail&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:27</date>
+  <millis>1570567587696</millis>
+  <sequence>162</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Configurar Cuenta/Editar Correo/input_() Confirmar correo electrnico_RepeatEmail\&amp;quot;), \&amp;quot;usuarioprueba2@yopmail.com\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:27</date>
+  <millis>1570567587696</millis>
+  <sequence>163</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Mi Cuenta/Configurar Cuenta/Editar Correo Electronico/IngresarInformacion</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:27</date>
+  <millis>1570567587697</millis>
+  <sequence>164</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Mi Cuenta/Configurar Cuenta/Editar Correo Electronico/IngresarInformacion</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:27</date>
+  <millis>1570567587702</millis>
+  <sequence>165</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Mi Cuenta/Configurar Cuenta/Editar Correo Electronico/SeleccionarBoton_Cancelar</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Mi Cuenta/Configurar Cuenta/Editar Correo Electronico/SeleccionarBoton_Cancelar</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Mi Cuenta/Configurar Cuenta/Editar Correo Electronico/SeleccionarBoton_Cancelar</property>
+  <property name="source">E:\\TORO\\INTERGRUPO\\AUTOMATIZACION_PROYECTOS\\PROYECTOS\\EMI\\PortalClientes_Web\\Test Cases\\Mi Cuenta\\Configurar Cuenta\\Editar Correo Electronico\\SeleccionarBoton_Cancelar.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-10-08T15:46:27</date>
+  <millis>1570567587999</millis>
+  <sequence>167</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/Configurar Cuenta/Editar Correo/button_Cancelar\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-08T15:46:30</date>
+  <millis>1570567590233</millis>
+  <sequence>174</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Configurar Cuenta/Editar Correo/button_Cancelar&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:30</date>
+  <millis>1570567590233</millis>
+  <sequence>175</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/Configurar Cuenta/Editar Correo/button_Cancelar\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:30</date>
+  <millis>1570567590234</millis>
+  <sequence>176</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Mi Cuenta/Configurar Cuenta/Editar Correo Electronico/SeleccionarBoton_Cancelar</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:30</date>
+  <millis>1570567590234</millis>
+  <sequence>177</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Mi Cuenta/Configurar Cuenta/Editar Correo Electronico/SeleccionarBoton_Cancelar</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:30</date>
+  <millis>1570567590235</millis>
+  <sequence>178</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:30</date>
+  <millis>1570567590353</millis>
+  <sequence>352</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: E:\\TORO\\INTERGRUPO\\AUTOMATIZACION_PROYECTOS\\PROYECTOS\\EMI\\PortalClientes_Web\\Reports\\20191008_154454\\Modulo1_Mi Cuenta\\FlujoCompleto_ConfigurarCuenta\\Editar Correo\\Cancelar_CambioCorreo\\20191008_154454...</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:30</date>
+  <millis>1570567590368</millis>
+  <sequence>353</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:30</date>
+  <millis>1570567590368</millis>
+  <sequence>354</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: E:\\TORO\\INTERGRUPO\\AUTOMATIZACION_PROYECTOS\\PROYECTOS\\EMI\\PortalClientes_Web\\Reports\\20191008_154454\\Modulo1_Mi Cuenta\\FlujoCompleto_ConfigurarCuenta\\Editar Correo\\Cancelar_CambioCorreo\\20191008_154454...</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:30</date>
+  <millis>1570567590389</millis>
+  <sequence>355</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:30</date>
+  <millis>1570567590389</millis>
+  <sequence>356</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating JUnit report folder at: E:\\TORO\\INTERGRUPO\\AUTOMATIZACION_PROYECTOS\\PROYECTOS\\EMI\\PortalClientes_Web\\Reports\\20191008_154454\\Modulo1_Mi Cuenta\\FlujoCompleto_ConfigurarCuenta\\Editar Correo\\Cancelar_CambioCorreo\\20191008_154454...</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:30</date>
+  <millis>1570567590524</millis>
+  <sequence>357</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>JUnit report generated</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:30</date>
+  <millis>1570567590524</millis>
+  <sequence>359</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-08T15:46:32</date>
+  <millis>1570567592430</millis>
+  <sequence>360</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Modulo1_Mi Cuenta/FlujoCompleto_ConfigurarCuenta/Editar Correo/Cancelar_CambioCorreo</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

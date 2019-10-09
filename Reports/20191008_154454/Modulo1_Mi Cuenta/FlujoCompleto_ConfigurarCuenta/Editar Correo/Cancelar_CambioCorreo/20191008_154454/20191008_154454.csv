@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cancelar_CambioCorreo,Chrome 77.0.3865.90,,,2019-10-08 15:45:02,2019-10-08 15:46:30,1m - 27.794s,INCOMPLETE
+,,,,,,,
+Test Cases/Abrir Navegador/AbrirNavegador,Chrome 77.0.3865.90,,,2019-10-08 15:45:02,2019-10-08 15:45:17,14.653s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.90,,,2019-10-08 15:45:03,2019-10-08 15:45:10,7.179s,PASSED
+maximizeWindow(),Chrome 77.0.3865.90,,,2019-10-08 15:45:10,2019-10-08 15:45:12,2.139s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.90,,,2019-10-08 15:45:12,2019-10-08 15:45:17,4.953s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/IngresarInformacion,Chrome 77.0.3865.90,Autenticación - portal clientes,,2019-10-08 15:45:17,2019-10-08 15:45:26,8.811s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.90,,,2019-10-08 15:45:17,2019-10-08 15:45:19,1.478s,PASSED
+"setText(findTestObject(""Object Repository/IniciarSesion/input_Correo electrnico_email""), ""usuarioprueba1@yopmail.com"")",Chrome 77.0.3865.90,,,2019-10-08 15:45:19,2019-10-08 15:45:22,3.513s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/IniciarSesion/input_Contrasea_password""), ""zpitzbFj1P6iY2h+x2z5qA=="")",Chrome 77.0.3865.90,,,2019-10-08 15:45:22,2019-10-08 15:45:26,3.327s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/SeleccionarBoton_Ingresar,Chrome 77.0.3865.90,,,2019-10-08 15:45:26,2019-10-08 15:45:58,32.530s,PASSED
+"click(findTestObject(""IniciarSesion/button_INGRESAR""))",Chrome 77.0.3865.90,,,2019-10-08 15:45:26,2019-10-08 15:45:28,2.185s,PASSED
+delay(30),Chrome 77.0.3865.90,,,2019-10-08 15:45:28,2019-10-08 15:45:58,30.029s,PASSED
+,,,,,,,
+Test Cases/Mi Cuenta/Configurar Cuenta/SeleccionarMenu_MiCuenta,Chrome 77.0.3865.90,,,2019-10-08 15:45:58,2019-10-08 15:46:12,13.359s,PASSED
+"click(findTestObject(""Object Repository/Modulo Mi Cuenta/a_Mi cuenta""))",Chrome 77.0.3865.90,,,2019-10-08 15:45:58,2019-10-08 15:46:01,2.220s,PASSED
+"waitForElementClickable(findTestObject(""Modulo Mi Cuenta/a_Mi cuenta""), 10)",Chrome 77.0.3865.90,,,2019-10-08 15:46:01,2019-10-08 15:46:12,10.841s,PASSED
+,,,,,,,
+Test Cases/Mi Cuenta/Configurar Cuenta/SeleccionarOpcion_ConfigurarCuenta,Chrome 77.0.3865.90,,,2019-10-08 15:46:12,2019-10-08 15:46:14,2.539s,PASSED
+"click(findTestObject(""Object Repository/Modulo Mi Cuenta/a_Configurar cuenta""))",Chrome 77.0.3865.90,,,2019-10-08 15:46:12,2019-10-08 15:46:14,2.257s,PASSED
+,,,,,,,
+Test Cases/Mi Cuenta/Configurar Cuenta/Editar Correo Electronico/SeleccionarTab_EditarCorreo,Chrome 77.0.3865.90,,,2019-10-08 15:46:14,2019-10-08 15:46:17,2.593s,PASSED
+"click(findTestObject(""Configurar Cuenta/Editar Correo/a_Editar correo electrnico""))",Chrome 77.0.3865.90,,,2019-10-08 15:46:14,2019-10-08 15:46:17,2.229s,PASSED
+,,,,,,,
+Test Cases/Mi Cuenta/Configurar Cuenta/Editar Correo Electronico/IngresarInformacion,Chrome 77.0.3865.90,,,2019-10-08 15:46:17,2019-10-08 15:46:27,10.492s,PASSED
+"setText(findTestObject(""Configurar Cuenta/Editar Correo/input_() Correo electrnico actual_AuthenticationEmail""), ""usuarioprueba1@yopmail.com"")",Chrome 77.0.3865.90,,,2019-10-08 15:46:17,2019-10-08 15:46:20,3.402s,PASSED
+"setText(findTestObject(""Configurar Cuenta/Editar Correo/input_() Nuevo correo electrnico_Email""), ""usuarioprueba2@yopmail.com"")",Chrome 77.0.3865.90,,,2019-10-08 15:46:20,2019-10-08 15:46:24,3.314s,PASSED
+"setText(findTestObject(""Configurar Cuenta/Editar Correo/input_() Confirmar correo electrnico_RepeatEmail""), ""usuarioprueba2@yopmail.com"")",Chrome 77.0.3865.90,,,2019-10-08 15:46:24,2019-10-08 15:46:27,3.422s,PASSED
+,,,,,,,
+Test Cases/Mi Cuenta/Configurar Cuenta/Editar Correo Electronico/SeleccionarBoton_Cancelar,Chrome 77.0.3865.90,,,2019-10-08 15:46:27,2019-10-08 15:46:30,2.532s,PASSED
+"click(findTestObject(""Object Repository/Configurar Cuenta/Editar Correo/button_Cancelar""))",Chrome 77.0.3865.90,,,2019-10-08 15:46:27,2019-10-08 15:46:30,2.234s,PASSED

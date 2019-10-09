@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cancelar_CambioContrasena,Chrome 77.0.3865.90,,,2019-10-08 16:17:57,2019-10-08 16:19:23,1m - 26.386s,INCOMPLETE
+,,,,,,,
+Test Cases/Abrir Navegador/AbrirNavegador,Chrome 77.0.3865.90,,,2019-10-08 16:17:57,2019-10-08 16:18:11,14.611s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.90,,,2019-10-08 16:17:57,2019-10-08 16:18:04,6.990s,PASSED
+maximizeWindow(),Chrome 77.0.3865.90,,,2019-10-08 16:18:04,2019-10-08 16:18:06,2.186s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.90,,,2019-10-08 16:18:06,2019-10-08 16:18:11,5.067s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/IngresarInformacion,Chrome 77.0.3865.90,Autenticación - portal clientes,,2019-10-08 16:18:11,2019-10-08 16:18:20,8.931s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.90,,,2019-10-08 16:18:12,2019-10-08 16:18:13,1.592s,PASSED
+"setText(findTestObject(""Object Repository/IniciarSesion/input_Correo electrnico_email""), ""usuarioprueba1@yopmail.com"")",Chrome 77.0.3865.90,,,2019-10-08 16:18:13,2019-10-08 16:18:17,3.554s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/IniciarSesion/input_Contrasea_password""), ""zpitzbFj1P6iY2h+x2z5qA=="")",Chrome 77.0.3865.90,,,2019-10-08 16:18:17,2019-10-08 16:18:20,3.348s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/SeleccionarBoton_Ingresar,Chrome 77.0.3865.90,,,2019-10-08 16:18:20,2019-10-08 16:18:53,32.584s,PASSED
+"click(findTestObject(""IniciarSesion/button_INGRESAR""))",Chrome 77.0.3865.90,,,2019-10-08 16:18:21,2019-10-08 16:18:23,2.268s,PASSED
+delay(30),Chrome 77.0.3865.90,,,2019-10-08 16:18:23,2019-10-08 16:18:53,30.030s,PASSED
+,,,,,,,
+Test Cases/Mi Cuenta/Configurar Cuenta/SeleccionarMenu_MiCuenta,Chrome 77.0.3865.90,,,2019-10-08 16:18:53,2019-10-08 16:19:06,13.385s,PASSED
+"click(findTestObject(""Object Repository/Modulo Mi Cuenta/a_Mi cuenta""))",Chrome 77.0.3865.90,,,2019-10-08 16:18:53,2019-10-08 16:18:56,2.260s,PASSED
+"waitForElementClickable(findTestObject(""Modulo Mi Cuenta/a_Mi cuenta""), 10)",Chrome 77.0.3865.90,,,2019-10-08 16:18:56,2019-10-08 16:19:06,10.832s,PASSED
+,,,,,,,
+Test Cases/Mi Cuenta/Configurar Cuenta/SeleccionarOpcion_ConfigurarCuenta,Chrome 77.0.3865.90,,,2019-10-08 16:19:06,2019-10-08 16:19:09,2.607s,PASSED
+"click(findTestObject(""Object Repository/Modulo Mi Cuenta/a_Configurar cuenta""))",Chrome 77.0.3865.90,,,2019-10-08 16:19:07,2019-10-08 16:19:09,2.320s,PASSED
+,,,,,,,
+Test Cases/Mi Cuenta/Configurar Cuenta/Editar Contrasena/IngresarInformacion,Chrome 77.0.3865.90,,,2019-10-08 16:19:09,2019-10-08 16:19:19,10.189s,PASSED
+"setEncryptedText(findTestObject(""Configurar Cuenta/Editar Contrasena/input_() Contrasea actual_oldPassword""), ""zpitzbFj1P6iY2h+x2z5qA=="")",Chrome 77.0.3865.90,,,2019-10-08 16:19:09,2019-10-08 16:19:13,3.264s,PASSED
+"setEncryptedText(findTestObject(""Configurar Cuenta/Editar Contrasena/input_() Contrasea nueva_newPassword""), ""TG+1lLkBS3xswYetR2n2wg=="")",Chrome 77.0.3865.90,,,2019-10-08 16:19:13,2019-10-08 16:19:16,3.309s,PASSED
+"setEncryptedText(findTestObject(""Configurar Cuenta/Editar Contrasena/input_() Confirmar contrasea nueva_ConfirmPassword""), ""TG+1lLkBS3xswYetR2n2wg=="")",Chrome 77.0.3865.90,,,2019-10-08 16:19:16,2019-10-08 16:19:19,3.268s,PASSED
+,,,,,,,
+Test Cases/Mi Cuenta/Configurar Cuenta/Editar Contrasena/SeleccionarBoton_Cancelar,Chrome 77.0.3865.90,,,2019-10-08 16:19:19,2019-10-08 16:19:23,3.815s,FAILED
+"click(findTestObject(""Object Repository/Configurar Cuenta/Editar Contrasena/button_CANCELAR""))",Chrome 77.0.3865.90,,,2019-10-08 16:19:19,2019-10-08 16:19:23,3.521s,FAILED
