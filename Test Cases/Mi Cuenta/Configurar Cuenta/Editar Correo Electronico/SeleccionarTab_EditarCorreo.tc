@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>IngresarInformacion</name>
+   <name>SeleccionarTab_EditarCorreo</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>2196d3e4-2d99-4159-b8bb-066b2c70c780</testCaseGuid>
+   <testCaseGuid>7a42ba8c-0200-49eb-b80a-7db10864078b</testCaseGuid>
 </TestCaseEntity>

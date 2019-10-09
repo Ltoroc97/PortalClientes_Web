@@ -41,13 +41,13 @@
       <testCaseId>Test Cases/Mi Cuenta/Configurar Cuenta/SeleccionarOpcion_ConfigurarCuenta</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>078456c6-6151-4b86-ad6c-e8bef42542bf</guid>
+      <guid>a25814ae-d169-4956-8a05-240ff05676b1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Mi Cuenta/Configurar Cuenta/Editar Contrasena/IngresarInformacion</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f2afae4c-1c97-47c1-8998-b76ac056434b</guid>
+      <guid>506e1916-007b-4a3c-88a5-f79c7e59b9a3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Mi Cuenta/Configurar Cuenta/Editar Contrasena/SeleccionarBoton_Cancelar</testCaseId>

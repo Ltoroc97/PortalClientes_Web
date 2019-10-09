@@ -3,14 +3,18 @@
    <description></description>
    <name>button_CANCELAR</name>
    <tag></tag>
-   <elementGuidId>86792720-478a-44b4-b522-fafb7402952e</elementGuidId>
+   <elementGuidId>ea70ced6-519a-4792-8f6f-ade17dd91735</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;tab_default_1&quot;)/article[1]/app-change-password[1]/section[1]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;row content-clinic&quot;]/div[1]/form[@class=&quot;ng-dirty ng-touched ng-valid&quot;]/div[@class=&quot;col-md-6 col-md-offset-3&quot;]/div[@class=&quot;emi-botones&quot;]/div[@class=&quot;col-md-6 col-sm-6 col-xs-12&quot;]/div[@class=&quot;emi1-cancelar&quot;]/button[@class=&quot;btn btn-default emi1-btncancelar&quot;][count(. | //*[@type = 'button' and (text() = 'CANCELAR' or . = 'CANCELAR')]) = count(//*[@type = 'button' and (text() = 'CANCELAR' or . = 'CANCELAR')])]</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[3]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,11 +45,11 @@
       <value>CANCELAR</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tab_default_1&quot;)/article[1]/app-change-password[1]/section[1]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;row content-clinic&quot;]/div[1]/form[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;col-md-6 col-md-offset-3&quot;]/div[@class=&quot;emi-botones&quot;]/div[@class=&quot;col-md-6 col-sm-6 col-xs-12&quot;]/div[@class=&quot;emi1-cancelar&quot;]/button[@class=&quot;btn btn-default emi1-btncancelar&quot;]</value>
+      <value>id(&quot;tab_default_1&quot;)/article[1]/app-change-password[1]/section[1]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;row content-clinic&quot;]/div[1]/form[@class=&quot;ng-dirty ng-touched ng-valid&quot;]/div[@class=&quot;col-md-6 col-md-offset-3&quot;]/div[@class=&quot;emi-botones&quot;]/div[@class=&quot;col-md-6 col-sm-6 col-xs-12&quot;]/div[@class=&quot;emi1-cancelar&quot;]/button[@class=&quot;btn btn-default emi1-btncancelar&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

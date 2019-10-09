@@ -14,9 +14,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('https://test-portalclientesyventas-co.azurewebsites.net/login')
+WebUI.click(findTestObject('Configurar Cuenta/Editar Correo/a_Editar correo electrnico'))
 

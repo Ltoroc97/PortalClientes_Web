@@ -14,5 +14,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Cambiar Contrasena/button_CANCELAR'))
+WebUI.click(findTestObject('Object Repository/Configurar Cuenta/Editar Correo/button_Cancelar'))
 

@@ -14,9 +14,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.setText(findTestObject('Configurar Cuenta/Editar Correo/input_() Correo electrnico actual_AuthenticationEmail'), 
+    'usuarioprueba1@yopmail.com')
 
-WebUI.maximizeWindow()
+WebUI.setText(findTestObject('Configurar Cuenta/Editar Correo/input_() Nuevo correo electrnico_Email'), 
+    'usuarioprueba2@yopmail.com')
 
-WebUI.navigateToUrl('https://test-portalclientesyventas-co.azurewebsites.net/login')
+WebUI.setText(findTestObject('Configurar Cuenta/Editar Correo/input_() Confirmar correo electrnico_RepeatEmail'), 
+    'usuarioprueba2@yopmail.com')
 

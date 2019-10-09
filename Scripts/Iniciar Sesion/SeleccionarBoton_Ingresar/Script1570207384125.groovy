@@ -16,7 +16,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('IniciarSesion/button_INGRESAR'))
 
-not_run: WebUI.waitForElementClickable(findTestObject('IniciarSesion/button_INGRESAR'), 6000)
-
-WebUI.delay(60)
+WebUI.delay(30)
 

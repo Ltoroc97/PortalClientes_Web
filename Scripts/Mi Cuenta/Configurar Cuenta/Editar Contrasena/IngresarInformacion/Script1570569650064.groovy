@@ -14,9 +14,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.setEncryptedText(findTestObject('Object Repository/Configurar Cuenta/Editar Contrasena/input_() Contrasea actual_oldPassword'), 
+    'zpitzbFj1P6iY2h+x2z5qA==')
 
-WebUI.maximizeWindow()
+WebUI.setEncryptedText(findTestObject('Object Repository/Configurar Cuenta/Editar Contrasena/input_() Contrasea nueva_newPassword'), 
+    'TG+1lLkBS3xswYetR2n2wg==')
 
-WebUI.navigateToUrl('https://test-portalclientesyventas-co.azurewebsites.net/login')
+WebUI.setEncryptedText(findTestObject('Object Repository/Configurar Cuenta/Editar Contrasena/input_() Confirmar contrasea nueva_ConfirmPassword'), 
+    'TG+1lLkBS3xswYetR2n2wg==')
 
