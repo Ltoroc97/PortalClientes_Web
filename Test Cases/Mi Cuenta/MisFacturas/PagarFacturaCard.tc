@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Solo se verificará hasta el botón pagar que se cargue los datos de la pasarela de manera correcta sin pagar la factura.</description>
+   <name>PagarFacturaCard</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1a109bf-4204-4b51-a0a4-4e8c347c41ec</testCaseGuid>
+</TestCaseEntity>

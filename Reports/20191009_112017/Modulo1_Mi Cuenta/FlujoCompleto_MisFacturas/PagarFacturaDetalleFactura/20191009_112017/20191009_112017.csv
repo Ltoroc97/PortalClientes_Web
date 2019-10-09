@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PagarFacturaDetalleFactura,Chrome 77.0.3865.90,,,2019-10-09 11:20:20,2019-10-09 11:21:56,1m - 36.387s,INCOMPLETE
+,,,,,,,
+Test Cases/Abrir Navegador/AbrirNavegador,Chrome 77.0.3865.90,,,2019-10-09 11:20:20,2019-10-09 11:20:35,14.766s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.90,,,2019-10-09 11:20:20,2019-10-09 11:20:27,6.480s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.90,,,2019-10-09 11:20:27,2019-10-09 11:20:35,7.961s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/IngresarInformacion,Chrome 77.0.3865.90,Autenticación - portal clientes,,2019-10-09 11:20:35,2019-10-09 11:20:43,8.675s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.90,,,2019-10-09 11:20:35,2019-10-09 11:20:37,1.494s,PASSED
+"setText(findTestObject(""Object Repository/IniciarSesion/input_Correo electrnico_email""), ""usuarioprueba1@yopmail.com"")",Chrome 77.0.3865.90,,,2019-10-09 11:20:37,2019-10-09 11:20:40,3.455s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/IniciarSesion/input_Contrasea_password""), ""zpitzbFj1P6iY2h+x2z5qA=="")",Chrome 77.0.3865.90,,,2019-10-09 11:20:40,2019-10-09 11:20:43,3.358s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/SeleccionarBoton_Ingresar,Chrome 77.0.3865.90,,,2019-10-09 11:20:43,2019-10-09 11:20:56,12.573s,PASSED
+"click(findTestObject(""IniciarSesion/button_INGRESAR""))",Chrome 77.0.3865.90,,,2019-10-09 11:20:44,2019-10-09 11:20:46,2.230s,PASSED
+delay(10),Chrome 77.0.3865.90,,,2019-10-09 11:20:46,2019-10-09 11:20:56,10.034s,PASSED
+,,,,,,,
+Test Cases/Mi Cuenta/MisFacturas/SeleccionarMenu_MiCuenta,Chrome 77.0.3865.90,,,2019-10-09 11:20:56,2019-10-09 11:21:09,13.382s,PASSED
+"click(findTestObject(""Object Repository/Modulo Mi Cuenta/a_Mi cuenta""))",Chrome 77.0.3865.90,,,2019-10-09 11:20:56,2019-10-09 11:20:59,2.255s,PASSED
+"waitForElementClickable(findTestObject(""Modulo Mi Cuenta/a_Mi cuenta""), 10)",Chrome 77.0.3865.90,,,2019-10-09 11:20:59,2019-10-09 11:21:09,10.822s,PASSED
+,,,,,,,
+Test Cases/Mi Cuenta/MisFacturas/SeleccionaropcionMisFacturas,Chrome 77.0.3865.90,,,2019-10-09 11:21:09,2019-10-09 11:21:12,2.686s,PASSED
+"click(findTestObject(""Object Repository/Modulo Mi Cuenta/a_Mis facturas""))",Chrome 77.0.3865.90,,,2019-10-09 11:21:10,2019-10-09 11:21:12,2.318s,PASSED
+,,,,,,,
+Test Cases/Mi Cuenta/MisFacturas/ConsultarfacturasImpagas,Chrome 77.0.3865.90,,,2019-10-09 11:21:12,2019-10-09 11:21:32,20.250s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/MisFacturas/select_Seleccione                PagaImpaga""), ""2"", true)",Chrome 77.0.3865.90,,,2019-10-09 11:21:12,2019-10-09 11:21:28,15.638s,PASSED
+"click(findTestObject(""Object Repository/MisFacturas/button_BUSCAR""))",Chrome 77.0.3865.90,,,2019-10-09 11:21:28,2019-10-09 11:21:30,2.252s,PASSED
+delay(2),Chrome 77.0.3865.90,,,2019-10-09 11:21:30,2019-10-09 11:21:32,2.008s,PASSED
+,,,,,,,
+Test Cases/Mi Cuenta/MisFacturas/PagarFacturasDetalleFactura,Chrome 77.0.3865.90,,,2019-10-09 11:21:32,2019-10-09 11:21:56,23.772s,PASSED
+delay(2),Chrome 77.0.3865.90,,,2019-10-09 11:21:33,2019-10-09 11:21:35,2.006s,PASSED
+"click(findTestObject(""Object Repository/MisFacturas/a_VER DETALLE""))",Chrome 77.0.3865.90,,,2019-10-09 11:21:35,2019-10-09 11:21:37,2.277s,PASSED
+delay(4),Chrome 77.0.3865.90,,,2019-10-09 11:21:37,2019-10-09 11:21:41,4.005s,PASSED
+"click(findTestObject(""Object Repository/MisFacturas/button_PAGAR""))",Chrome 77.0.3865.90,,,2019-10-09 11:21:41,2019-10-09 11:21:43,2.341s,PASSED
+delay(2),Chrome 77.0.3865.90,,,2019-10-09 11:21:43,2019-10-09 11:21:45,2.007s,PASSED
+"click(findTestObject(""Object Repository/MisFacturas/a_Tarjeta De Crdito""))",Chrome 77.0.3865.90,,,2019-10-09 11:21:45,2019-10-09 11:21:48,2.279s,PASSED
+delay(1),Chrome 77.0.3865.90,,,2019-10-09 11:21:48,2019-10-09 11:21:49,1.004s,PASSED
+"click(findTestObject(""Object Repository/MisFacturas/a_Cuenta Corriente""))",Chrome 77.0.3865.90,,,2019-10-09 11:21:49,2019-10-09 11:21:51,2.258s,PASSED
+delay(1),Chrome 77.0.3865.90,,,2019-10-09 11:21:51,2019-10-09 11:21:52,1.003s,PASSED
+"click(findTestObject(""Object Repository/MisFacturas/a_Cuenta De Ahorros""))",Chrome 77.0.3865.90,,,2019-10-09 11:21:52,2019-10-09 11:21:54,2.262s,PASSED
+delay(2),Chrome 77.0.3865.90,,,2019-10-09 11:21:54,2019-10-09 11:21:56,2.004s,PASSED

@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ConsultarFacturasPagas,Chrome 77.0.3865.90,,,2019-10-09 09:49:07,2019-10-09 09:50:51,1m - 44.551s,INCOMPLETE
+,,,,,,,
+Test Cases/Abrir Navegador/AbrirNavegador,Chrome 77.0.3865.90,,,2019-10-09 09:49:07,2019-10-09 09:49:22,15.136s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.90,,,2019-10-09 09:49:07,2019-10-09 09:49:14,6.633s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.90,,,2019-10-09 09:49:14,2019-10-09 09:49:22,8.175s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/IngresarInformacion,Chrome 77.0.3865.90,Autenticación - portal clientes,,2019-10-09 09:49:22,2019-10-09 09:49:31,8.691s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.90,,,2019-10-09 09:49:22,2019-10-09 09:49:24,1.476s,PASSED
+"setText(findTestObject(""Object Repository/IniciarSesion/input_Correo electrnico_email""), ""usuarioprueba1@yopmail.com"")",Chrome 77.0.3865.90,,,2019-10-09 09:49:24,2019-10-09 09:49:27,3.495s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/IniciarSesion/input_Contrasea_password""), ""zpitzbFj1P6iY2h+x2z5qA=="")",Chrome 77.0.3865.90,,,2019-10-09 09:49:27,2019-10-09 09:49:31,3.325s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/SeleccionarBoton_Ingresar,Chrome 77.0.3865.90,,,2019-10-09 09:49:31,2019-10-09 09:50:33,1m - 2.619s,PASSED
+"click(findTestObject(""IniciarSesion/button_INGRESAR""))",Chrome 77.0.3865.90,,,2019-10-09 09:49:31,2019-10-09 09:49:33,2.274s,PASSED
+"waitForElementClickable(findTestObject(""IniciarSesion/button_INGRESAR""), 6000)",Chrome 77.0.3865.90,,,2019-10-09 09:49:33,2019-10-09 09:49:33,0.002s,NOT_RUN
+delay(60),Chrome 77.0.3865.90,,,2019-10-09 09:49:33,2019-10-09 09:50:33,1m - 0.036s,PASSED
+,,,,,,,
+Test Cases/Mi Cuenta/MisFacturas/SeleccionarMenu_MiCuenta,Chrome 77.0.3865.90,,,2019-10-09 09:50:33,2019-10-09 09:50:47,13.471s,PASSED
+"click(findTestObject(""Object Repository/Modulo Mi Cuenta/a_Mi cuenta""))",Chrome 77.0.3865.90,,,2019-10-09 09:50:34,2019-10-09 09:50:36,2.243s,PASSED
+"waitForElementClickable(findTestObject(""Modulo Mi Cuenta/a_Mi cuenta""), 10)",Chrome 77.0.3865.90,,,2019-10-09 09:50:36,2019-10-09 09:50:47,10.892s,PASSED
+,,,,,,,
+Test Cases/Mi Cuenta/MisFacturas/SeleccionaropcionMisFacturas,Chrome 77.0.3865.90,,,2019-10-09 09:50:47,2019-10-09 09:50:49,2.638s,PASSED
+"click(findTestObject(""Object Repository/Modulo Mi Cuenta/a_Mis facturas""))",Chrome 77.0.3865.90,,,2019-10-09 09:50:47,2019-10-09 09:50:49,2.300s,PASSED
+,,,,,,,
+Test Cases/Mi Cuenta/MisFacturas/SeleccionarFacturasImpagas,Chrome 77.0.3865.90,,,2019-10-09 09:50:49,2019-10-09 09:50:51,1.714s,FAILED
+"selectOptionByValue(findTestObject(""MisFacturas/select_Seleccione PagaImpaga""), ""2"", true)",Chrome 77.0.3865.90,,,2019-10-09 09:50:50,2019-10-09 09:50:51,1.365s,FAILED

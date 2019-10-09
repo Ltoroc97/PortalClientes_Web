@@ -14,7 +14,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('IniciarSesion/button_INGRESAR'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/MisFacturas/select_Seleccione                PagaImpaga'), '1', 
+    true)
 
-WebUI.delay(10)
+WebUI.click(findTestObject('Object Repository/MisFacturas/button_BUSCAR'))
+
+WebUI.delay(2)
 

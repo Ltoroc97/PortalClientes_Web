@@ -13,8 +13,25 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+WebUI.delay(2)
 
-WebUI.click(findTestObject('IniciarSesion/button_INGRESAR'))
+WebUI.click(findTestObject('Object Repository/MisFacturas/a_VER DETALLE'))
 
-WebUI.delay(10)
+WebUI.delay(4)
+
+WebUI.click(findTestObject('Object Repository/MisFacturas/button_PAGAR'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/MisFacturas/a_Tarjeta De Crdito'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/MisFacturas/a_Cuenta Corriente'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/MisFacturas/a_Cuenta De Ahorros'))
+
+WebUI.delay(2)
 
