@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IngresarDireccionNueva,Chrome 77.0.3865.90,,,2019-10-09 16:43:47,2019-10-09 16:50:51,7m - 3.621s,INCOMPLETE
+,,,,,,,
+Test Cases/Abrir Navegador/AbrirNavegador,Chrome 77.0.3865.90,,,2019-10-09 16:43:47,2019-10-09 16:44:02,14.502s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.90,,,2019-10-09 16:43:48,2019-10-09 16:43:54,6.532s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.90,,,2019-10-09 16:43:54,2019-10-09 16:44:02,7.639s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/IngresarInformacion,Chrome 77.0.3865.90,Autenticación - portal clientes,,2019-10-09 16:44:02,2019-10-09 16:44:11,8.670s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.90,,,2019-10-09 16:44:02,2019-10-09 16:44:04,1.484s,PASSED
+"setText(findTestObject(""Object Repository/IniciarSesion/input_Correo electrnico_email""), ""usuarioprueba1@yopmail.com"")",Chrome 77.0.3865.90,,,2019-10-09 16:44:04,2019-10-09 16:44:07,3.401s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/IniciarSesion/input_Contrasea_password""), ""zpitzbFj1P6iY2h+x2z5qA=="")",Chrome 77.0.3865.90,,,2019-10-09 16:44:07,2019-10-09 16:44:11,3.380s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/SeleccionarBoton_Ingresar,Chrome 77.0.3865.90,,,2019-10-09 16:44:11,2019-10-09 16:44:23,12.584s,PASSED
+"click(findTestObject(""IniciarSesion/button_INGRESAR""))",Chrome 77.0.3865.90,,,2019-10-09 16:44:11,2019-10-09 16:44:13,2.240s,PASSED
+delay(10),Chrome 77.0.3865.90,,,2019-10-09 16:44:13,2019-10-09 16:44:23,10.038s,PASSED
+,,,,,,,
+Test Cases/Solicitar Servicio/SeleccionarOpcionSolicitarServicio,Chrome 77.0.3865.90,,,2019-10-09 16:44:23,2019-10-09 16:44:26,2.640s,PASSED
+"click(findTestObject(""Solicitar Servicio/a_Solicitar servicio""))",Chrome 77.0.3865.90,,,2019-10-09 16:44:24,2019-10-09 16:44:26,2.300s,PASSED
+,,,,,,,
+Test Cases/Solicitar Servicio/SeleccionarPaciente,Chrome 77.0.3865.90,,,2019-10-09 16:44:26,2019-10-09 16:44:55,28.901s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Solicitar Servicio/SeleccionarPaciente""), ""21371502"", true)",Chrome 77.0.3865.90,,,2019-10-09 16:44:26,2019-10-09 16:44:55,28.509s,PASSED
+,,,,,,,
+Test Cases/Solicitar Servicio/SeleccionarOpcionDireccionNueva,Chrome 77.0.3865.90,,,2019-10-09 16:44:55,2019-10-09 16:44:57,2.621s,PASSED
+"click(findTestObject(""Object Repository/Solicitar Servicio/button_Agregar direccin""))",Chrome 77.0.3865.90,,,2019-10-09 16:44:55,2019-10-09 16:44:57,2.339s,PASSED
+,,,,,,,
+Test Cases/Solicitar Servicio/IngresarNuevaDireccion,Chrome 77.0.3865.90,,,2019-10-09 16:44:57,2019-10-09 16:50:51,5m - 53.395s,ERROR
+"selectOptionByValue(findTestObject(""Object Repository/Solicitar Servicio/SeleccionarPais""), ""1"", true)",Chrome 77.0.3865.90,,,2019-10-09 16:44:58,2019-10-09 16:45:12,14.670s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Solicitar Servicio/SeleccionarDepartamento""), ""05"", true)",Chrome 77.0.3865.90,,,2019-10-09 16:45:12,2019-10-09 16:45:34,21.841s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Solicitar Servicio/SeleccionarCiudad""), ""05001"", true)",Chrome 77.0.3865.90,,,2019-10-09 16:45:34,2019-10-09 16:46:03,29.046s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Solicitar Servicio/SeleccionarBarrio""), ""0110"", true)",Chrome 77.0.3865.90,,,2019-10-09 16:46:03,2019-10-09 16:49:47,3m - 43.552s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Solicitar Servicio/SeleccionarTipoCalle""), ""CL"", true)",Chrome 77.0.3865.90,,,2019-10-09 16:49:47,2019-10-09 16:50:32,44.607s,PASSED
+"setText(findTestObject(""Object Repository/Solicitar Servicio/input_Campo1""), ""30"")",Chrome 77.0.3865.90,,,2019-10-09 16:50:32,2019-10-09 16:50:35,3.381s,PASSED
+"setText(findTestObject(""Object Repository/Solicitar Servicio/input__Campo2""), ""30"")",Chrome 77.0.3865.90,,,2019-10-09 16:50:35,2019-10-09 16:50:38,3.321s,PASSED
+"setText(findTestObject(""Object Repository/Solicitar Servicio/input_Campo3""), ""30"")",Chrome 77.0.3865.90,,,2019-10-09 16:50:38,2019-10-09 16:50:42,3.272s,PASSED
+"setText(findTestObject(""Object Repository/Solicitar Servicio/input_Apartamento""), ""9001"")",Chrome 77.0.3865.90,,,2019-10-09 16:50:42,2019-10-09 16:50:45,3.381s,PASSED
+"setText(findTestObject(""Object Repository/Solicitar Servicio/input_Detalles""), ""dirección prueba"")",Chrome 77.0.3865.90,,,2019-10-09 16:50:45,2019-10-09 16:50:48,3.568s,PASSED
+"click(findTestObject(""Object Repository/Solicitar Servicio/button_Guardar""))",Chrome 77.0.3865.90,,,2019-10-09 16:50:48,2019-10-09 16:50:51,2.257s,PASSED
+Delay(15),Chrome 77.0.3865.90,,,2019-10-09 16:50:51,2019-10-09 16:50:51,0.001s,PASSED
