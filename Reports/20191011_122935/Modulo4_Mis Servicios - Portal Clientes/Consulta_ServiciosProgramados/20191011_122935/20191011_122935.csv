@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Consulta_ServiciosProgramados,Chrome 77.0.3865.90,,,2019-10-11 12:29:43,2019-10-11 12:30:45,1m - 2.186s,INCOMPLETE
+,,,,,,,
+Test Cases/Abrir Navegador/AbrirNavegador,Chrome 77.0.3865.90,,,2019-10-11 12:29:43,2019-10-11 12:29:59,15.652s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.90,,,2019-10-11 12:29:44,2019-10-11 12:29:51,7.828s,PASSED
+maximizeWindow(),Chrome 77.0.3865.90,,,2019-10-11 12:29:51,2019-10-11 12:29:53,2.154s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.90,,,2019-10-11 12:29:53,2019-10-11 12:29:59,5.404s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/IngresarInformacion,Chrome 77.0.3865.90,Autenticación - portal clientes,,2019-10-11 12:29:59,2019-10-11 12:30:08,8.958s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.90,,,2019-10-11 12:29:59,2019-10-11 12:30:01,1.527s,PASSED
+"setText(findTestObject(""Object Repository/IniciarSesion/input_Correo electrnico_email""), ""usuarioprueba1@yopmail.com"")",Chrome 77.0.3865.90,,,2019-10-11 12:30:01,2019-10-11 12:30:04,3.605s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/IniciarSesion/input_Contrasea_password""), ""zpitzbFj1P6iY2h+x2z5qA=="")",Chrome 77.0.3865.90,,,2019-10-11 12:30:04,2019-10-11 12:30:08,3.464s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/SeleccionarBoton_Ingresar,Chrome 77.0.3865.90,,,2019-10-11 12:30:08,2019-10-11 12:30:36,27.654s,PASSED
+"click(findTestObject(""IniciarSesion/button_INGRESAR""))",Chrome 77.0.3865.90,,,2019-10-11 12:30:08,2019-10-11 12:30:10,2.269s,PASSED
+delay(25),Chrome 77.0.3865.90,,,2019-10-11 12:30:10,2019-10-11 12:30:36,25.040s,PASSED
+,,,,,,,
+Test Cases/Mis Servicios/Servicios Programados/SeleccionarMenu_MisServicios,Chrome 77.0.3865.90,,,2019-10-11 12:30:36,2019-10-11 12:30:38,2.825s,PASSED
+"click(findTestObject(""Object Repository/Modulo Mis Servicios/a_Mis servicios""))",Chrome 77.0.3865.90,,,2019-10-11 12:30:36,2019-10-11 12:30:38,2.410s,PASSED
+,,,,,,,
+Test Cases/Mis Servicios/Servicios Programados/SeleccionarOpcion_ServiciosProgramados,Chrome 77.0.3865.90,,,2019-10-11 12:30:38,2019-10-11 12:30:41,2.835s,PASSED
+"click(findTestObject(""Object Repository/Modulo Mis Servicios/a_Servicios programados""))",Chrome 77.0.3865.90,,,2019-10-11 12:30:39,2019-10-11 12:30:41,2.492s,PASSED
+,,,,,,,
+Test Cases/Mis Servicios/Servicios Programados/VerServiciosProgramados,Chrome 77.0.3865.90,,,2019-10-11 12:30:41,2019-10-11 12:30:45,4.006s,FAILED
+"click(findTestObject(""Object Repository/Servicios Programados/Contorno Servicios Programados Dashboard""))",Chrome 77.0.3865.90,,,2019-10-11 12:30:42,2019-10-11 12:30:45,3.604s,FAILED

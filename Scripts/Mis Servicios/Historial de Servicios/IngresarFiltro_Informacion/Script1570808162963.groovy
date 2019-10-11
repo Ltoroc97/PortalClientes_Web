@@ -14,7 +14,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('IniciarSesion/button_INGRESAR'))
+WebUI.selectOptionByValue(findTestObject('Historial de Servicios/select_Seleccione                Atencin Medica DomiciliariaAtencin Mdica DomiciliariaChat De Orientacin Mdicaemi Especialistas'), 
+    'Atención Medica Domiciliaria', true)
 
-WebUI.delay(25)
+WebUI.selectOptionByValue(findTestObject('Historial de Servicios/select_Seleccione                MedellinSabaneta'), 
+    'Medellin', true)
 

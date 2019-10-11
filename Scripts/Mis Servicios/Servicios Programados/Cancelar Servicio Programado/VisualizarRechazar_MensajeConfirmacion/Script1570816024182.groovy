@@ -14,7 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('IniciarSesion/button_INGRESAR'))
+WebUI.click(findTestObject('Object Repository/Servicios Programados/CancelarServicioProgramado/p_Desea cancelar el servicio'))
 
-WebUI.delay(25)
+WebUI.click(findTestObject('Object Repository/Servicios Programados/CancelarServicioProgramado/button_NO'))
 
