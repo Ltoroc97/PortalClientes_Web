@@ -14,15 +14,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Configurar Cuenta/Editar Contrasena/button_CAMBIAR CONTRASEA'))
-
-WebUI.delay(10)
-
-not_run: WebUI.click(findTestObject('Object Repository/Configurar Cuenta/Editar Contrasena/h3_Confirmacin'))
-
-not_run: WebUI.click(findTestObject('Object Repository/Configurar Cuenta/Editar Contrasena/button_SI'))
-
-not_run: WebUI.click(findTestObject('Object Repository/Configurar Cuenta/Editar Contrasena/h4_Proceso exitoso'))
-
-not_run: WebUI.click(findTestObject('Object Repository/Configurar Cuenta/Editar Contrasena/button_ACEPTAR'))
+WebUI.click(findTestObject('Object Repository/Modulo Mis Servicios/a_Mis servicios'))
 

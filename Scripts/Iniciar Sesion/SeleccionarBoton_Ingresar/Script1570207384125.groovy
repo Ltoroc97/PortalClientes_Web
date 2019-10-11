@@ -16,9 +16,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('IniciarSesion/button_INGRESAR'))
 
-<<<<<<< HEAD
 WebUI.delay(30)
-=======
-WebUI.delay(10)
->>>>>>> branch 'master' of https://github.com/Ltoroc97/PortalClientes_Web.git
 

@@ -18,8 +18,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Configurar Cuenta/Edita
     'zpitzbFj1P6iY2h+x2z5qA==')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Configurar Cuenta/Editar Contrasena/input_() Contrasea nueva_newPassword'), 
-    'TG+1lLkBS3xswYetR2n2wg==')
+    'NLwEgAqyXDqLT9q5h6rWSQ==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Configurar Cuenta/Editar Contrasena/input_() Confirmar contrasea nueva_ConfirmPassword'), 
-    'TG+1lLkBS3xswYetR2n2wg==')
+WebUI.setEncryptedText(findTestObject('Configurar Cuenta/Editar Contrasena/input_() Confirmar contrasea nueva_ConfirmPassword'), 
+    'NLwEgAqyXDqLT9q5h6rWSQ==')
 

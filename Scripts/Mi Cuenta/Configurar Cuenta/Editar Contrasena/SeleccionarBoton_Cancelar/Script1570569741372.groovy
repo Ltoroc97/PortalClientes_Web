@@ -15,5 +15,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Object Repository/Configurar Cuenta/Editar Contrasena/button_CANCELAR'))
 
-WebUI.delay(70)
+WebUI.delay(90)
 
