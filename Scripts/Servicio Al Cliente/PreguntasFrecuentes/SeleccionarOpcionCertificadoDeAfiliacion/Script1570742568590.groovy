@@ -14,5 +14,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.scrollToPosition(0, 250)
+
 WebUI.click(findTestObject('Object Repository/Servicio Al Cliente/a_Certificado de afiliacin'))
+
+WebUI.delay(10)
+
+WebUI.scrollToPosition(250,0)
+
+WebUI.click(findTestObject('Object Repository/Servicio Al Cliente/h3_Certificado de afiliacin'))
+
+result = WebUI.getText(findTestObject('Object Repository/Servicio Al Cliente/h3_Certificado de afiliacin'))
+	
+System.out.println(result)
+
+WebUI.verifyEqual(result, 'Certificado de afiliación')
+
+
+
 

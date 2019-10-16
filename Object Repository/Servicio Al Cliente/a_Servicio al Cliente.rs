@@ -48,13 +48,6 @@
       <value>dropdown-items-menu</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-expanded</name>
-      <type>Main</type>
-      <value>false</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
@@ -70,6 +63,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;conten1&quot;)/nav[@class=&quot;navbar navbar-default sidebar&quot;]/div[1]/div[1]/ms-sidenav[1]/ul[@class=&quot;nav navbar-nav&quot;]/ms-sidenav-item[@class=&quot;sidenav-item&quot;]/li[@class=&quot;dropdown&quot;]/a[@id=&quot;dropdown-items-menu&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

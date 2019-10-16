@@ -16,3 +16,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Object Repository/Servicio Al Cliente/a_Programa emi Beneficios'))
 
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Object Repository/Servicio Al Cliente/h3_Programa emi Beneficios'))
+
+result = WebUI.getText(findTestObject('Object Repository/Servicio Al Cliente/h3_Programa emi Beneficios'))
+
+System.out.println(result)
+
+WebUI.verifyEqual(result, 'Programa emi Beneficios')
+
+
+
+
+

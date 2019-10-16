@@ -16,3 +16,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Object Repository/Servicio Al Cliente/a_Citas con especialistas'))
 
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Object Repository/Servicio Al Cliente/h3_Citas con especialistas'))
+
+result = WebUI.getText(findTestObject('Object Repository/Servicio Al Cliente/h3_Citas con especialistas'))
+
+System.out.println(result)
+
+WebUI.verifyEqual(result, 'Citas con especialistas')
+

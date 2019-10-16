@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IngresarOpcionCertificadoDeAfiliacion,Chrome 77.0.3865.120,,,2019-10-16 12:35:20,2019-10-16 12:36:38,1m - 18.021s,INCOMPLETE
+,,,,,,,
+Test Cases/Abrir Navegador/AbrirNavegador,Chrome 77.0.3865.120,,,2019-10-16 12:35:21,2019-10-16 12:35:38,17.258s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.120,,,2019-10-16 12:35:21,2019-10-16 12:35:28,6.596s,PASSED
+maximizeWindow(),Chrome 77.0.3865.120,,,2019-10-16 12:35:28,2019-10-16 12:35:30,2.147s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.120,,,2019-10-16 12:35:30,2019-10-16 12:35:38,8.161s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/IngresarInformacion,Chrome 77.0.3865.120,Autenticación - portal clientes,,2019-10-16 12:35:38,2019-10-16 12:35:47,8.753s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.120,,,2019-10-16 12:35:38,2019-10-16 12:35:40,1.536s,PASSED
+"setText(findTestObject(""Object Repository/IniciarSesion/input_Correo electrnico_email""), ""usuarioprueba1@yopmail.com"")",Chrome 77.0.3865.120,,,2019-10-16 12:35:40,2019-10-16 12:35:43,3.520s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/IniciarSesion/input_Contrasea_password""), ""zpitzbFj1P6iY2h+x2z5qA=="")",Chrome 77.0.3865.120,,,2019-10-16 12:35:43,2019-10-16 12:35:47,3.300s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/SeleccionarBoton_Ingresar,Chrome 77.0.3865.120,,,2019-10-16 12:35:47,2019-10-16 12:36:14,27.607s,PASSED
+"click(findTestObject(""IniciarSesion/button_INGRESAR""))",Chrome 77.0.3865.120,,,2019-10-16 12:35:47,2019-10-16 12:35:49,2.242s,PASSED
+delay(25),Chrome 77.0.3865.120,,,2019-10-16 12:35:49,2019-10-16 12:36:14,25.042s,PASSED
+,,,,,,,
+Test Cases/Servicio Al Cliente/SeleccionarOpcionServicioAlCliente,Chrome 77.0.3865.120,,,2019-10-16 12:36:14,2019-10-16 12:36:17,2.477s,PASSED
+"click(findTestObject(""Object Repository/Servicio Al Cliente/a_Servicio al Cliente""))",Chrome 77.0.3865.120,,,2019-10-16 12:36:15,2019-10-16 12:36:17,2.183s,PASSED
+,,,,,,,
+Test Cases/Servicio Al Cliente/PreguntasFrecuentes/SeleccionarPreguntasFrecuentes,Chrome 77.0.3865.120,,,2019-10-16 12:36:17,2019-10-16 12:36:19,2.567s,PASSED
+"click(findTestObject(""Object Repository/Servicio Al Cliente/a_Preguntas frecuentes""))",Chrome 77.0.3865.120,,,2019-10-16 12:36:17,2019-10-16 12:36:19,2.272s,PASSED
+,,,,,,,
+Test Cases/Servicio Al Cliente/PreguntasFrecuentes/SeleccionarOpcionCertificadoDeAfiliacion,Chrome 77.0.3865.120,,,2019-10-16 12:36:19,2019-10-16 12:36:38,19.025s,PASSED
+"scrollToPosition(0, 250)",Chrome 77.0.3865.120,,,2019-10-16 12:36:20,2019-10-16 12:36:21,1.037s,PASSED
+"click(findTestObject(""Object Repository/Servicio Al Cliente/a_Certificado de afiliacin""))",Chrome 77.0.3865.120,,,2019-10-16 12:36:21,2019-10-16 12:36:23,2.237s,PASSED
+delay(10),Chrome 77.0.3865.120,,,2019-10-16 12:36:23,2019-10-16 12:36:33,10.006s,PASSED
+"scrollToPosition(250, 0)",Chrome 77.0.3865.120,,,2019-10-16 12:36:33,2019-10-16 12:36:34,1.016s,PASSED
+"click(findTestObject(""Object Repository/Servicio Al Cliente/h3_Certificado de afiliacin""))",Chrome 77.0.3865.120,,,2019-10-16 12:36:34,2019-10-16 12:36:36,2.196s,PASSED
+"result = getText(findTestObject(""Object Repository/Servicio Al Cliente/h3_Certificado de afiliacin""))",Chrome 77.0.3865.120,,,2019-10-16 12:36:36,2019-10-16 12:36:38,2.160s,PASSED
+out.println(result),Chrome 77.0.3865.120,,,2019-10-16 12:36:38,2019-10-16 12:36:38,0.020s,PASSED
+"verifyEqual(result, ""Certificado de afiliación"")",Chrome 77.0.3865.120,,,2019-10-16 12:36:38,2019-10-16 12:36:38,0.013s,PASSED

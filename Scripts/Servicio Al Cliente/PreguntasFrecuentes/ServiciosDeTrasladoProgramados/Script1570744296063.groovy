@@ -14,5 +14,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.scrollToPosition(0, 350)
+
 WebUI.click(findTestObject('Object Repository/Servicio Al Cliente/a_Servicio de traslados programados'))
+
+WebUI.delay(10)
+
+WebUI.scrollToPosition(250, 0)
+
+WebUI.click(findTestObject('Object Repository/Servicio Al Cliente/h3_Servicio de traslados programados'))
+
+result = WebUI.getText(findTestObject('Object Repository/Servicio Al Cliente/h3_Servicio de traslados programados'))
+
+System.out.println(result)
+
+WebUI.verifyEqual(result, 'Servicio de traslados programados')
 

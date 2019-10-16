@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IngresarOpcionAreaProtegida,Chrome 77.0.3865.120,,,2019-10-16 08:52:53,2019-10-16 08:53:59,1m - 6.677s,INCOMPLETE
+,,,,,,,
+Test Cases/Abrir Navegador/AbrirNavegador,Chrome 77.0.3865.120,,,2019-10-16 08:52:53,2019-10-16 08:53:11,17.681s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.120,,,2019-10-16 08:52:53,2019-10-16 08:53:00,6.609s,PASSED
+maximizeWindow(),Chrome 77.0.3865.120,,,2019-10-16 08:53:00,2019-10-16 08:53:02,2.190s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.120,,,2019-10-16 08:53:02,2019-10-16 08:53:11,8.542s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/IngresarInformacion,Chrome 77.0.3865.120,Autenticación - portal clientes,,2019-10-16 08:53:11,2019-10-16 08:53:20,8.936s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.120,,,2019-10-16 08:53:11,2019-10-16 08:53:13,1.526s,PASSED
+"setText(findTestObject(""Object Repository/IniciarSesion/input_Correo electrnico_email""), ""usuarioprueba1@yopmail.com"")",Chrome 77.0.3865.120,,,2019-10-16 08:53:13,2019-10-16 08:53:16,3.618s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/IniciarSesion/input_Contrasea_password""), ""zpitzbFj1P6iY2h+x2z5qA=="")",Chrome 77.0.3865.120,,,2019-10-16 08:53:16,2019-10-16 08:53:20,3.366s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/SeleccionarBoton_Ingresar,Chrome 77.0.3865.120,,,2019-10-16 08:53:20,2019-10-16 08:53:47,27.583s,PASSED
+"click(findTestObject(""IniciarSesion/button_INGRESAR""))",Chrome 77.0.3865.120,,,2019-10-16 08:53:20,2019-10-16 08:53:22,2.230s,PASSED
+delay(25),Chrome 77.0.3865.120,,,2019-10-16 08:53:22,2019-10-16 08:53:47,25.034s,PASSED
+,,,,,,,
+Test Cases/Servicio Al Cliente/SeleccionarOpcionServicioAlCliente,Chrome 77.0.3865.120,,,2019-10-16 08:53:47,2019-10-16 08:53:50,2.572s,PASSED
+"click(findTestObject(""Object Repository/Servicio Al Cliente/a_Servicio al Cliente""))",Chrome 77.0.3865.120,,,2019-10-16 08:53:47,2019-10-16 08:53:50,2.265s,PASSED
+,,,,,,,
+Test Cases/Servicio Al Cliente/PreguntasFrecuentes/SeleccionarPreguntasFrecuentes,Chrome 77.0.3865.120,,,2019-10-16 08:53:50,2019-10-16 08:53:52,2.588s,PASSED
+"click(findTestObject(""Object Repository/Servicio Al Cliente/a_Preguntas frecuentes""))",Chrome 77.0.3865.120,,,2019-10-16 08:53:50,2019-10-16 08:53:52,2.284s,PASSED
+,,,,,,,
+Test Cases/Servicio Al Cliente/PreguntasFrecuentes/SeleccionarOpcionAreaProtegia,Chrome 77.0.3865.120,,,2019-10-16 08:53:52,2019-10-16 08:53:59,7.011s,PASSED
+"click(findTestObject(""Object Repository/Servicio Al Cliente/a_Area protegida""))",Chrome 77.0.3865.120,,,2019-10-16 08:53:53,2019-10-16 08:53:55,2.204s,PASSED
+"click(findTestObject(""Object Repository/Servicio Al Cliente/h3_Area protegida""))",Chrome 77.0.3865.120,,,2019-10-16 08:53:55,2019-10-16 08:53:57,2.197s,PASSED
+"result = getText(findTestObject(""Object Repository/Servicio Al Cliente/h3_Area protegida""))",Chrome 77.0.3865.120,,,2019-10-16 08:53:57,2019-10-16 08:53:59,2.199s,PASSED
+out.println(result),Chrome 77.0.3865.120,,,2019-10-16 08:53:59,2019-10-16 08:53:59,0.026s,PASSED
+"verifyEqual(result, ""Area protegida"")",Chrome 77.0.3865.120,,,2019-10-16 08:53:59,2019-10-16 08:53:59,0.037s,PASSED

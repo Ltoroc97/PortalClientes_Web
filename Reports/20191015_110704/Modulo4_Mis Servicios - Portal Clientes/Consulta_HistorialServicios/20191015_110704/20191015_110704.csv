@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Consulta_HistorialServicios,Chrome 77.0.3865.90,,,2019-10-15 11:07:07,2019-10-15 11:08:15,1m - 8.218s,INCOMPLETE
+,,,,,,,
+Test Cases/Abrir Navegador/AbrirNavegador,Chrome 77.0.3865.90,,,2019-10-15 11:07:07,2019-10-15 11:07:21,14.476s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.90,,,2019-10-15 11:07:07,2019-10-15 11:07:14,6.692s,PASSED
+maximizeWindow(),Chrome 77.0.3865.90,,,2019-10-15 11:07:14,2019-10-15 11:07:16,2.159s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.90,,,2019-10-15 11:07:16,2019-10-15 11:07:21,5.214s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/IngresarInformacion,Chrome 77.0.3865.90,Autenticación - portal clientes,,2019-10-15 11:07:21,2019-10-15 11:07:30,8.774s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.90,,,2019-10-15 11:07:22,2019-10-15 11:07:23,1.500s,PASSED
+"setText(findTestObject(""Object Repository/IniciarSesion/input_Correo electrnico_email""), ""usuarioprueba1@yopmail.com"")",Chrome 77.0.3865.90,,,2019-10-15 11:07:23,2019-10-15 11:07:27,3.430s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/IniciarSesion/input_Contrasea_password""), ""zpitzbFj1P6iY2h+x2z5qA=="")",Chrome 77.0.3865.90,,,2019-10-15 11:07:27,2019-10-15 11:07:30,3.408s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/SeleccionarBoton_Ingresar,Chrome 77.0.3865.90,,,2019-10-15 11:07:30,2019-10-15 11:07:58,27.564s,PASSED
+"click(findTestObject(""IniciarSesion/button_INGRESAR""))",Chrome 77.0.3865.90,,,2019-10-15 11:07:30,2019-10-15 11:07:33,2.213s,PASSED
+delay(25),Chrome 77.0.3865.90,,,2019-10-15 11:07:33,2019-10-15 11:07:58,25.036s,PASSED
+,,,,,,,
+Test Cases/Mis Servicios/Historial de Servicios/SeleccionarMenu_MisServicios,Chrome 77.0.3865.90,,,2019-10-15 11:07:58,2019-10-15 11:08:00,2.547s,PASSED
+"click(findTestObject(""Object Repository/Modulo Mis Servicios/a_Mis servicios""))",Chrome 77.0.3865.90,,,2019-10-15 11:07:58,2019-10-15 11:08:00,2.246s,PASSED
+,,,,,,,
+Test Cases/Mis Servicios/Historial de Servicios/SeleccionarOpcion_HistorialServicios,Chrome 77.0.3865.90,,,2019-10-15 11:08:00,2019-10-15 11:08:03,2.592s,PASSED
+"click(findTestObject(""Object Repository/Modulo Mis Servicios/a_Historial de servicios""))",Chrome 77.0.3865.90,,,2019-10-15 11:08:01,2019-10-15 11:08:03,2.287s,PASSED
+,,,,,,,
+Test Cases/Mis Servicios/Historial de Servicios/IngresarFiltro_Informacion,Chrome 77.0.3865.90,,,2019-10-15 11:08:03,2019-10-15 11:08:12,9.420s,FAILED
+"selectOptionByValue(findTestObject(""Historial de Servicios/select_Seleccione                Atencin Medica DomiciliariaAtencin Mdica DomiciliariaChat De Orientacin Mdicaemi Especialistas""), ""Atención Medica Domiciliaria"", true)",Chrome 77.0.3865.90,,,2019-10-15 11:08:03,2019-10-15 11:08:12,9.073s,FAILED
+,,,,,,,
+Test Cases/Mis Servicios/Historial de Servicios/SeleccionarBoton_Buscar,Chrome 77.0.3865.90,,,2019-10-15 11:08:12,2019-10-15 11:08:15,2.541s,PASSED
+"click(findTestObject(""Historial de Servicios/button_BUSCAR""))",Chrome 77.0.3865.90,,,2019-10-15 11:08:13,2019-10-15 11:08:15,2.222s,PASSED

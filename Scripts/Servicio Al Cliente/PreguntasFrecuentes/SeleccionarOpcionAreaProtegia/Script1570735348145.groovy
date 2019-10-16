@@ -16,3 +16,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Object Repository/Servicio Al Cliente/a_Area protegida'))
 
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Object Repository/Servicio Al Cliente/h3_Area protegida'))
+
+result = WebUI.getText(findTestObject('Object Repository/Servicio Al Cliente/h3_Area protegida'))
+
+System.out.println(result)
+
+WebUI.verifyEqual(result, 'Area protegida')
+
+
+
+
+
+
+

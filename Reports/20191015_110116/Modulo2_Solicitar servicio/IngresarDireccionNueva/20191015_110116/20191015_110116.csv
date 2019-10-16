@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IngresarDireccionNueva,Chrome 77.0.3865.90,,,2019-10-15 11:01:18,2019-10-15 11:02:54,1m - 35.513s,INCOMPLETE
+,,,,,,,
+Test Cases/Abrir Navegador/AbrirNavegador,Chrome 77.0.3865.90,,,2019-10-15 11:01:18,2019-10-15 11:01:34,15.264s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.90,,,2019-10-15 11:01:19,2019-10-15 11:01:25,6.540s,PASSED
+maximizeWindow(),Chrome 77.0.3865.90,,,2019-10-15 11:01:25,2019-10-15 11:01:27,2.141s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.90,,,2019-10-15 11:01:27,2019-10-15 11:01:34,6.244s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/IngresarInformacion,Chrome 77.0.3865.90,Autenticación - portal clientes,,2019-10-15 11:01:34,2019-10-15 11:01:43,8.812s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.90,,,2019-10-15 11:01:34,2019-10-15 11:01:36,1.563s,PASSED
+"setText(findTestObject(""Object Repository/IniciarSesion/input_Correo electrnico_email""), ""usuarioprueba1@yopmail.com"")",Chrome 77.0.3865.90,,,2019-10-15 11:01:36,2019-10-15 11:01:39,3.467s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/IniciarSesion/input_Contrasea_password""), ""zpitzbFj1P6iY2h+x2z5qA=="")",Chrome 77.0.3865.90,,,2019-10-15 11:01:39,2019-10-15 11:01:43,3.382s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/SeleccionarBoton_Ingresar,Chrome 77.0.3865.90,,,2019-10-15 11:01:43,2019-10-15 11:02:10,27.557s,PASSED
+"click(findTestObject(""IniciarSesion/button_INGRESAR""))",Chrome 77.0.3865.90,,,2019-10-15 11:01:43,2019-10-15 11:01:45,2.197s,PASSED
+delay(25),Chrome 77.0.3865.90,,,2019-10-15 11:01:45,2019-10-15 11:02:10,25.039s,PASSED
+,,,,,,,
+Test Cases/Solicitar Servicio/SeleccionarOpcionSolicitarServicio,Chrome 77.0.3865.90,,,2019-10-15 11:02:10,2019-10-15 11:02:13,2.681s,PASSED
+"click(findTestObject(""Solicitar Servicio/a_Solicitar servicio""))",Chrome 77.0.3865.90,,,2019-10-15 11:02:10,2019-10-15 11:02:13,2.362s,PASSED
+,,,,,,,
+Test Cases/Solicitar Servicio/SeleccionarPaciente,Chrome 77.0.3865.90,,,2019-10-15 11:02:13,2019-10-15 11:02:42,28.934s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Solicitar Servicio/SeleccionarPaciente""), ""21371502"", true)",Chrome 77.0.3865.90,,,2019-10-15 11:02:13,2019-10-15 11:02:42,28.488s,PASSED
+,,,,,,,
+Test Cases/Solicitar Servicio/SeleccionarOpcionDireccionNueva,Chrome 77.0.3865.90,,,2019-10-15 11:02:42,2019-10-15 11:02:44,2.638s,PASSED
+"click(findTestObject(""Object Repository/Solicitar Servicio/button_Agregar direccin""))",Chrome 77.0.3865.90,,,2019-10-15 11:02:42,2019-10-15 11:02:44,2.329s,PASSED
+,,,,,,,
+Test Cases/Solicitar Servicio/IngresarNuevaDireccion,Chrome 77.0.3865.90,,,2019-10-15 11:02:44,2019-10-15 11:02:54,9.331s,FAILED
+"selectOptionByValue(findTestObject(""Object Repository/Solicitar Servicio/SeleccionarPais""), ""1"", true)",Chrome 77.0.3865.90,,,2019-10-15 11:02:45,2019-10-15 11:02:54,8.953s,FAILED

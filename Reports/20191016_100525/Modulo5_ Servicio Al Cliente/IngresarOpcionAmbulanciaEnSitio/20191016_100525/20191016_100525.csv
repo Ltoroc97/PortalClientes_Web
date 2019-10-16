@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IngresarOpcionAmbulanciaEnSitio,Chrome 77.0.3865.120,,,2019-10-16 10:05:27,2019-10-16 10:06:30,1m - 2.967s,INCOMPLETE
+,,,,,,,
+Test Cases/Abrir Navegador/AbrirNavegador,Chrome 77.0.3865.120,,,2019-10-16 10:05:27,2019-10-16 10:05:45,17.413s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.120,,,2019-10-16 10:05:28,2019-10-16 10:05:34,6.579s,PASSED
+maximizeWindow(),Chrome 77.0.3865.120,,,2019-10-16 10:05:34,2019-10-16 10:05:36,2.164s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.120,,,2019-10-16 10:05:36,2019-10-16 10:05:45,8.327s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/IngresarInformacion,Chrome 77.0.3865.120,Autenticación - portal clientes,,2019-10-16 10:05:45,2019-10-16 10:05:54,8.917s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.120,,,2019-10-16 10:05:45,2019-10-16 10:05:47,1.545s,PASSED
+"setText(findTestObject(""Object Repository/IniciarSesion/input_Correo electrnico_email""), ""usuarioprueba1@yopmail.com"")",Chrome 77.0.3865.120,,,2019-10-16 10:05:47,2019-10-16 10:05:50,3.577s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/IniciarSesion/input_Contrasea_password""), ""zpitzbFj1P6iY2h+x2z5qA=="")",Chrome 77.0.3865.120,,,2019-10-16 10:05:50,2019-10-16 10:05:54,3.400s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/SeleccionarBoton_Ingresar,Chrome 77.0.3865.120,,,2019-10-16 10:05:54,2019-10-16 10:06:21,27.576s,PASSED
+"click(findTestObject(""IniciarSesion/button_INGRESAR""))",Chrome 77.0.3865.120,,,2019-10-16 10:05:54,2019-10-16 10:05:56,2.232s,PASSED
+delay(25),Chrome 77.0.3865.120,,,2019-10-16 10:05:56,2019-10-16 10:06:21,25.029s,PASSED
+,,,,,,,
+Test Cases/Servicio Al Cliente/SeleccionarOpcionServicioAlCliente,Chrome 77.0.3865.120,,,2019-10-16 10:06:21,2019-10-16 10:06:24,2.536s,PASSED
+"click(findTestObject(""Object Repository/Servicio Al Cliente/a_Servicio al Cliente""))",Chrome 77.0.3865.120,,,2019-10-16 10:06:22,2019-10-16 10:06:24,2.245s,PASSED
+,,,,,,,
+Test Cases/Servicio Al Cliente/PreguntasFrecuentes/SeleccionarPreguntasFrecuentes,Chrome 77.0.3865.120,,,2019-10-16 10:06:24,2019-10-16 10:06:27,2.619s,PASSED
+"click(findTestObject(""Object Repository/Servicio Al Cliente/a_Preguntas frecuentes""))",Chrome 77.0.3865.120,,,2019-10-16 10:06:24,2019-10-16 10:06:27,2.330s,PASSED
+,,,,,,,
+Test Cases/Servicio Al Cliente/PreguntasFrecuentes/SeleccionarOpcionAmbulanciaEnSitio,Chrome 77.0.3865.120,,,2019-10-16 10:06:27,2019-10-16 10:06:30,3.631s,PASSED
+"scrollToPosition(0, 250)",Chrome 77.0.3865.120,,,2019-10-16 10:06:27,2019-10-16 10:06:28,1.041s,PASSED
+"click(findTestObject(""Object Repository/Servicio Al Cliente/a_Ambulancia en sitio""))",Chrome 77.0.3865.120,,,2019-10-16 10:06:28,2019-10-16 10:06:30,2.259s,PASSED

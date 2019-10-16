@@ -14,5 +14,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+
+
 WebUI.click(findTestObject('Object Repository/Servicio Al Cliente/a_Quiero afiliarme'))
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Object Repository/Servicio Al Cliente/h3_Quiero afiliarme'))
+
+result = WebUI.getText(findTestObject('Object Repository/Servicio Al Cliente/h3_Quiero afiliarme'))
+
+System.out.println(result)
+
+WebUI.verifyEqual(result, 'Quiero afiliarme')
+
+
 

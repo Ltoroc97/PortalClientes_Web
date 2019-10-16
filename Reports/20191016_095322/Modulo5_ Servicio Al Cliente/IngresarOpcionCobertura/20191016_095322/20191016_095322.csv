@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IngresarOpcionCobertura,Chrome 77.0.3865.120,,,2019-10-16 09:53:25,2019-10-16 09:55:24,1m - 59.619s,INCOMPLETE
+,,,,,,,
+Test Cases/Abrir Navegador/AbrirNavegador,Chrome 77.0.3865.120,,,2019-10-16 09:53:25,2019-10-16 09:53:39,14.646s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.120,,,2019-10-16 09:53:25,2019-10-16 09:53:32,6.611s,PASSED
+maximizeWindow(),Chrome 77.0.3865.120,,,2019-10-16 09:53:32,2019-10-16 09:53:34,2.147s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.120,,,2019-10-16 09:53:34,2019-10-16 09:53:39,5.542s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/IngresarInformacion,Chrome 77.0.3865.120,Autenticación - portal clientes,,2019-10-16 09:53:39,2019-10-16 09:53:48,8.628s,PASSED
+"navigateToUrl(""https://test-portalclientesyventas-co.azurewebsites.net/login"")",Chrome 77.0.3865.120,,,2019-10-16 09:53:40,2019-10-16 09:53:41,1.485s,PASSED
+"setText(findTestObject(""Object Repository/IniciarSesion/input_Correo electrnico_email""), ""usuarioprueba1@yopmail.com"")",Chrome 77.0.3865.120,,,2019-10-16 09:53:41,2019-10-16 09:53:45,3.385s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/IniciarSesion/input_Contrasea_password""), ""zpitzbFj1P6iY2h+x2z5qA=="")",Chrome 77.0.3865.120,,,2019-10-16 09:53:45,2019-10-16 09:53:48,3.375s,PASSED
+,,,,,,,
+Test Cases/Iniciar Sesion/SeleccionarBoton_Ingresar,Chrome 77.0.3865.120,,,2019-10-16 09:53:48,2019-10-16 09:54:16,27.571s,PASSED
+"click(findTestObject(""IniciarSesion/button_INGRESAR""))",Chrome 77.0.3865.120,,,2019-10-16 09:53:48,2019-10-16 09:53:51,2.225s,PASSED
+delay(25),Chrome 77.0.3865.120,,,2019-10-16 09:53:51,2019-10-16 09:54:16,25.033s,PASSED
+,,,,,,,
+Test Cases/Servicio Al Cliente/SeleccionarOpcionServicioAlCliente,Chrome 77.0.3865.120,,,2019-10-16 09:54:16,2019-10-16 09:54:18,2.544s,PASSED
+"click(findTestObject(""Object Repository/Servicio Al Cliente/a_Servicio al Cliente""))",Chrome 77.0.3865.120,,,2019-10-16 09:54:16,2019-10-16 09:54:18,2.244s,PASSED
+,,,,,,,
+Test Cases/Servicio Al Cliente/PreguntasFrecuentes/SeleccionarOpcionCobertura,Chrome 77.0.3865.120,,,2019-10-16 09:54:18,2019-10-16 09:55:21,1m - 3.204s,FAILED
+"click(findTestObject(""Object Repository/Servicio Al Cliente/a_Cobertura""))",Chrome 77.0.3865.120,,,2019-10-16 09:54:19,2019-10-16 09:55:21,1m - 2.879s,FAILED
+,,,,,,,
+Test Cases/Servicio Al Cliente/PreguntasFrecuentes/SeleccionarPreguntasFrecuentes,Chrome 77.0.3865.120,,,2019-10-16 09:55:21,2019-10-16 09:55:24,2.737s,PASSED
+"click(findTestObject(""Object Repository/Servicio Al Cliente/a_Preguntas frecuentes""))",Chrome 77.0.3865.120,,,2019-10-16 09:55:22,2019-10-16 09:55:24,2.339s,PASSED

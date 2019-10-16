@@ -35,15 +35,15 @@
       <testCaseId>Test Cases/Servicio Al Cliente/SeleccionarOpcionServicioAlCliente</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>037421f0-d4f3-41bf-abc7-f375fdccf507</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Servicio Al Cliente/PreguntasFrecuentes/SeleccionarOpcionCobertura</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>9a83e1ed-5bd3-47ac-9fd2-84575a741e48</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Servicio Al Cliente/PreguntasFrecuentes/SeleccionarPreguntasFrecuentes</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>037421f0-d4f3-41bf-abc7-f375fdccf507</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Servicio Al Cliente/PreguntasFrecuentes/SeleccionarOpcionCobertura</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
